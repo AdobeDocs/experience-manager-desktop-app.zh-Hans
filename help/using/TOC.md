@@ -8,10 +8,10 @@ user-guide-description: 了解如何使用 Experience Manager 桌面应用程序
 feature-set: Experience Manager Assets,Experience Manager
 feature: Desktop App
 role: User, Admin
-source-git-commit: df5283f6bef6adbb007bf93c6dabb3b12e430f58
+source-git-commit: 5676e7ece8bb43f051dae72d17e15ab1c34caefc
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 93%
+source-wordcount: '64'
+ht-degree: 59%
 
 ---
 
@@ -24,8 +24,8 @@ ht-degree: 93%
 + [使用应用程序](using.md)
 + [疑难解答](troubleshoot.md)
 + 以前版本的帮助 {#archive}
-   + [发行说明 v1](release-notes-of-v1.md)
-   + [安装和配置 v1](install-configure-app-v1.md)
-   + [使用应用程序 v1](use-app-v1.md)
-   + [最佳实践 v1](best-practices-for-v1.md)
-   + [故障诊断 v1](troubleshoot-app-v1.md)
+   + [发行说明v1](release-notes-of-v1.md)
+   + [安装和配置v1](install-configure-app-v1.md)
+   + [使用应用程序v1](use-app-v1.md)
+   + [最佳实践v1](best-practices-for-v1.md)
+   + [故障诊断v1](troubleshoot-app-v1.md)
