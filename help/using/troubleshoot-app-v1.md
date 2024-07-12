@@ -1,6 +1,6 @@
 ---
 title: 桌面应用程序版本1.10疑难解答。
-description: 疑难解答 [!DNL Adobe Experience Manager] 桌面应用程序版本1.10，用于解决与安装、升级和配置相关的偶然问题。
+description: 对 [!DNL Adobe Experience Manager] 桌面应用程序版本1.10进行故障排除，以解决与安装、升级和配置相关的偶然问题。
 exl-id: 1e1409c2-bf5e-4e2d-a5aa-3dd74166862c
 source-git-commit: 5676e7ece8bb43f051dae72d17e15ab1c34caefc
 workflow-type: tm+mt
@@ -9,23 +9,23 @@ ht-degree: 0%
 
 ---
 
-# 疑难解答 [!DNL Adobe Experience Manager] 桌面应用程序v1.x {#troubleshoot-aem-desktop-app}
+# [!DNL Adobe Experience Manager]桌面应用程序v1.x疑难解答 {#troubleshoot-aem-desktop-app}
 
 对AEM桌面应用程序进行故障排除，以解决与安装、升级、配置等相关的偶然问题。
 
-此 [!DNL Adobe Experience Manager] 桌面应用程序包括一些实用程序，可帮助您将AEM Assets存储库映射为桌面设备上的网络共享(macOS上的SMB共享)。 网络共享是一种操作系统技术，它使远程源可以被视为计算机本地文件系统的一部分。 对于桌面应用程序，远程文件源是远程AEM实例的数字资产管理(DAM)存储库结构。 下图描述了桌面应用程序拓扑：
+[!DNL Adobe Experience Manager]桌面应用程序包括实用工具，可帮助您将AEM Assets存储库映射为桌面上的网络共享(macOS上的SMB共享)。 网络共享是一种操作系统技术，它使远程源可以被视为计算机本地文件系统的一部分。 对于桌面应用程序，远程文件源是远程AEM实例的数字资产管理(DAM)存储库结构。 下图描述了桌面应用程序拓扑：
 
-![桌面应用程序图表](assets/aem-desktopapp-architecture.png)
+![桌面应用图表](assets/aem-desktopapp-architecture.png)
 
-利用此架构，桌面应用程序会截获对挂载的网络共享的文件系统调用（打开、关闭、读取、写入等），并将这些调用转换为对AEM服务器的本机AEM HTTP调用。 文件缓存在本地。 有关更多详细信息，请参阅 [使用AEM桌面应用程序v1.x](use-app-v1.md).
+利用此架构，桌面应用程序会截获对挂载的网络共享的文件系统调用（打开、关闭、读取、写入等），并将这些调用转换为对AEM服务器的本机AEM HTTP调用。 文件缓存在本地。 有关详细信息，请参阅[使用AEM桌面应用程序v1.x](use-app-v1.md)。
 
 ## AEM桌面应用程序组件概述 {#desktop-app-component-overview}
 
 该桌面应用程序包含以下组件：
 
 * **桌面应用程序**：应用程序作为远程文件系统装载或卸载DAM。 它转换本地挂载的网络共享与其连接的远程AEM实例之间的文件系统调用。
-* **操作系统WebDAV/SMB客户端**：处理Windows资源管理器/查找器和桌面应用程序之间的通信。 如果检索、创建、修改、删除、移动或复制了文件，操作系统(OS) WebDAV/SMB客户端会将此操作与桌面应用程序进行通信。 收到通信后，桌面应用程序会将其转换为本机AEM远程API调用。 例如，如果用户在已装载的目录中创建文件，则WebDAV/SMB客户端会发起请求，桌面应用程序会将该请求转换为在DAM中创建文件的HTTP请求。 WebDAV/SMB客户端是操作系统的内置组件。 它未以任何方式与桌面应用程序、AEM或Adobe相关联。
-* **Adobe Experience Manager实例**：提供对存储在AEM Assets DAM存储库中的资源的访问权限。 此外，它代表与挂载的网络共享交互的本地桌面应用程序执行桌面应用程序请求的操作。 目标AEM实例应运行AEM版本6.1或更高版本。 运行早期AEM版本的AEM实例可能需要安装额外的功能包和热修复程序才能完全正常工作。
+* **操作系统WebDAV/SMB客户端**：处理Windows资源管理器/查找器与桌面应用程序之间的通信。 如果检索、创建、修改、删除、移动或复制了文件，操作系统(OS) WebDAV/SMB客户端会将此操作与桌面应用程序进行通信。 收到通信后，桌面应用程序会将其转换为本机AEM远程API调用。 例如，如果用户在已装载的目录中创建文件，则WebDAV/SMB客户端会发起请求，桌面应用程序会将该请求转换为在DAM中创建文件的HTTP请求。 WebDAV/SMB客户端是操作系统的内置组件。 它未以任何方式与桌面应用程序、AEM或Adobe相关联。
+* **Adobe Experience Manager实例**：提供对AEM Assets DAM存储库中存储的资源的访问权限。 此外，它代表与挂载的网络共享交互的本地桌面应用程序执行桌面应用程序请求的操作。 目标AEM实例应运行AEM版本6.1或更高版本。 运行早期AEM版本的AEM实例可能需要安装额外的功能包和热修复程序才能完全正常工作。
 
 ## AEM桌面应用程序的预期用例 {#intended-use-cases-for-aem-desktop-app}
 
@@ -62,7 +62,7 @@ AEM Desktop不适合执行密集的文件系统操作，包括但不限于：
 
 由于操作系统的限制，Windows的文件大小限制为4,294,967,295字节（约4.29 GB）。 这是因为注册表设置定义了网络共享上的文件可以有多大。 注册表设置的值是一个最大大小等于引用数字的DWORD。
 
-此 [!DNL Experience Manager] 桌面应用程序没有可配置的超时值，因此无法断开与 [!DNL Experience Manager] 在固定时间间隔后访问服务器和桌面应用程序。 上传大型资产时，如果连接在一段时间后超时，应用程序会重试上传资产，方法是增加上传超时时间。 没有更改默认超时设置的推荐方法。
+[!DNL Experience Manager]桌面应用程序没有可配置的超时值，该超时值在固定时间间隔后断开[!DNL Experience Manager]服务器与桌面应用程序之间的连接。 上传大型资产时，如果连接在一段时间后超时，应用程序会重试上传资产，方法是增加上传超时时间。 没有更改默认超时设置的推荐方法。
 
 ## 缓存和与AEM的通信 {#caching-and-communication-with-aem}
 
@@ -88,7 +88,7 @@ AEM桌面应用程序提供内部缓存和后台上传功能，以改善最终�
 
 ## 单个操作 {#individual-operations}
 
-对个别用户的次优化性能进行故障排除时，请先查看 [应用程序限制](#limitations). 后续部分包含改进个人用户性能的建议。
+针对个别用户的次优化性能进行故障排除时，首先要检查[应用程序限制](#limitations)。 后续部分包含改进个人用户性能的建议。
 
 ## 带宽建议 {#bandwidth-recommendations}
 
@@ -129,19 +129,19 @@ On Windows 7, modifying IE settings can improve the performance of WebDAV. For d
 
 您可以通过为DAM更新资产工作流启用临时工作流来提高AEM性能。 启用临时工作流会降低在AEM中创建或修改资产时更新资产所需的处理能力。
 
-1. 导航到 `/miscadmin` 在Experience Manager实例中(`https://[aem_server]:[port]/miscadmin`)。
-1. 在导航树中，展开 **工具** > **工作流** > **模型** > **Dam**.
-1. 双击 **DAM更新资产**.
-1. 从浮动工具面板切换到 **页面** 选项卡，然后单击 **页面属性**.
-1. 选择 **瞬态工作流** 复选框，然后单击 **确定**.
+1. 导航到Experience Manager实例(`https://[aem_server]:[port]/miscadmin`)中的`/miscadmin`。
+1. 从导航树中，展开&#x200B;**工具** > **工作流** > **模型** > **Dam**。
+1. 双击&#x200B;**DAM更新资产**。
+1. 从浮动工具面板切换到&#x200B;**页面**&#x200B;选项卡，然后单击&#x200B;**页面属性**。
+1. 选中&#x200B;**临时工作流**&#x200B;复选框，然后单击&#x200B;**确定**。
 
 ### 调整 Granite Transient 工作流程队列 {#adjust-granite-transient-workflow-queue}
 
 另一种提高AEM性能的方法是为Granite临时工作流队列作业配置最大并行作业值。 建议值大约为服务器可用CPU数的一半。 要调整值，请执行以下步骤：
 
-1. 导航到 `/system/console/configMgr` 在要配置的AEM实例中(例如， `https://[aem_server]:[port]/system/console/configMgr`)。
-1. 搜索 `QueueConfiguration`，然后单击以打开每个作业，直到找到 **Granite Transient工作流队列** 作业，然后单击 **编辑**.
-1. 更改 `Maximum Parallel Jobs` 值，然后单击 **保存**.
+1. 在要配置的AEM实例中导航到`/system/console/configMgr`（例如，`https://[aem_server]:[port]/system/console/configMgr`）。
+1. 搜索`QueueConfiguration`，单击以打开每个作业，直到找到&#x200B;**Granite临时工作流队列**&#x200B;作业并单击&#x200B;**编辑**&#x200B;为止。
+1. 更改`Maximum Parallel Jobs`值，然后单击&#x200B;**保存**。
 
 ## AWS配置 {#aws-configuration}
 
@@ -149,7 +149,7 @@ On Windows 7, modifying IE settings can improve the performance of WebDAV. For d
 
 这项措施特别提高了服务器可用的网络带宽量。 以下是一些详细信息：
 
-* 专用于AWS实例的网络带宽量会随着实例大小的增加而增加。 有关每个实例大小可用的带宽信息，请转到 [AWS文档](https://aws.amazon.com/ec2/instance-types/).
+* 专用于AWS实例的网络带宽量会随着实例大小的增加而增加。 有关每个实例大小的可用带宽的信息，请转到[AWS文档](https://aws.amazon.com/ec2/instance-types/)。
 * 在针对大型客户端进行故障排除时，Adobe将其AEM实例的大小配置为c4.8xlarge，主要针对其提供的4000 Mbps专用带宽。
 * 如果AEM实例前面有一个Dispatcher，请确保它的大小合适。 如果AEM实例提供4000 Mbps，而Dispatcher仅提供500 Mbps，则有效带宽仅为500 Mbps。 这是因为Dispatcher造成了网络瓶颈。
 
@@ -217,13 +217,13 @@ AEM Desktop尝试同步任何给定文件三次。 如果第三次尝试后文�
 清除AEM Desktop的缓存是一项初步的故障排除任务，可以解决若干AEM Desktop问题。
 
 可以通过删除应用程序在以下位置的缓存目录来清除缓存。
-在Windows中， `%LocalAppData%\Adobe\AssetsCompanion\Cache\`
+在Windows中，`%LocalAppData%\Adobe\AssetsCompanion\Cache\`
 
-在Mac中， `~/Library/Group/Containers/group.com.adobe.aem.desktop/cache/`
+在Mac中，`~/Library/Group/Containers/group.com.adobe.aem.desktop/cache/`
 
-但是，该位置可能会因AEM Desktop配置的AEM端点而发生更改。 该值是目标URL的编码版本。 例如，如果应用程序正在定位 `http://localhost:4502`，目录名称为 `http%3A%2F%2Flocalhost%3A4502%2F`.
+但是，该位置可能会因AEM Desktop配置的AEM端点而发生更改。 该值是目标URL的编码版本。 例如，如果应用程序面向`http://localhost:4502`，则目录名称为`http%3A%2F%2Flocalhost%3A4502%2F`。
 
-要清除缓存，请删除 &lt;encoded aem=&quot;&quot; endpoint=&quot;&quot;> 目录。
+要清除缓存，请删除&lt;Encoded AEM Endpoint>目录。
 
 >[!NOTE]
 >
@@ -237,7 +237,7 @@ AEM Desktop尝试同步任何给定文件三次。 如果第三次尝试后文�
 
 确定AEM桌面版本的过程对于Windows和macOS都是相同的。
 
-单击AEM Desktop图标，然后选择 **关于**. 版本号显示在屏幕上。
+单击“AEM桌面”图标，然后选择&#x200B;**关于**。 版本号显示在屏幕上。
 
 ## 在macOS上升级AEM桌面应用程序 {#upgrading-aem-desktop-app-on-macos}
 
@@ -264,7 +264,7 @@ sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-pl
 
 ## 有关移动文件的疑难解答 {#troubleshooting-problems-around-moving-files}
 
-服务器API需要传递其他标头（X-Destination、X-Depth和X-Overwrite），才能进行移动和复制操作。 默认情况下，Dispatcher不会传递这些标头，这会导致这些操作失败。 有关更多信息，请参阅 [在Dispatcher后连接到AEM](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher).
+服务器API需要传递其他标头（X-Destination、X-Depth和X-Overwrite），才能进行移动和复制操作。 默认情况下，Dispatcher不会传递这些标头，这会导致这些操作失败。 有关详细信息，请参阅[连接到Dispatcher后面的AEM](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher)。
 
 ## AEM桌面连接问题疑难解答 {#troubleshooting-aem-desktop-connection-issues}
 
@@ -273,19 +273,19 @@ sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-pl
 AEM Desktop连接到已启用SSO的(SAML) AEM实例时出现问题的最常见原因是，SAML进程不会重定向回最初请求的路径。 或者，也可以将连接重定向到未在AEM桌面应用程序中配置的主机。 执行以下步骤以验证登录过程：
 
 1. 打开Web浏览器。
-1. 在地址栏中，指定URL `/content/dam.json`.
-1. 将URL替换为目标AEM实例，例如 `https://localhost:4502/content/dam.json`.
+1. 在地址栏中，指定URL `/content/dam.json`。
+1. 将URL替换为目标AEM实例，例如`https://localhost:4502/content/dam.json`。
 1. 登录到AEM。
 1. 登录后，在地址栏中检查浏览器的当前地址。 它应该与您最初输入的URL匹配。
-1. 验证之前的所有内容 `/content/dam.json` 匹配在AEM Desktop中配置的目标AEM值。
+1. 验证`/content/dam.json`之前的所有内容是否与AEM Desktop中配置的目标AEM值匹配。
 
 ### SSL配置问题 {#ssl-configuration-issue}
 
-AEM桌面应用程序用于HTTP通信的库使用严格的SSL强制实施。 有时，连接可能会成功使用浏览器，但无法使用AEM桌面应用程序。 要正确配置SSL，请在Apache中安装缺少的即时证书。 请参阅 [如何在Apache中安装中间CA证书](https://access.redhat.com/solutions/43575).
+AEM桌面应用程序用于HTTP通信的库使用严格的SSL强制实施。 有时，连接可能会成功使用浏览器，但无法使用AEM桌面应用程序。 要正确配置SSL，请在Apache中安装缺少的即时证书。 请参阅[如何在Apache中安装中间CA证书](https://access.redhat.com/solutions/43575)。
 
 ## 将AEM桌面与Dispatcher结合使用 {#using-aem-desktop-with-dispatcher}
 
-AEM Desktop可与Dispatcher后面的AEM部署配合使用，后者是AEM服务器的默认和推荐配置。 AEM创作环境前的AEM Dispatcher通常配置为跳过缓存DAM资源。 因此，调度程序不会从AEM Desktop角度提供额外的缓存。 确保已调整Dispatcher配置以用于AEM桌面。 有关其他详细信息，请参阅 [使用Dispatcher连接到AEM](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher).
+AEM Desktop可与Dispatcher后面的AEM部署配合使用，后者是AEM服务器的默认和推荐配置。 AEM创作环境前的AEM Dispatcher通常配置为跳过缓存DAM资源。 因此，调度程序不会从AEM Desktop角度提供额外的缓存。 确保已调整Dispatcher配置以用于AEM桌面。 有关其他详细信息，请参阅[使用Dispatcher连接到AEM](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher)。
 
 ## 检查日志文件 {#checking-for-log-files}
 
