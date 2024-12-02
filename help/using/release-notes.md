@@ -1,5 +1,5 @@
 ---
-title: '[!DNL Adobe Experience Manager]桌面应用程序发行说明'
+title: '[!DNL Adobe Experience Manager]桌面应用发行说明'
 description: ' [!DNL Adobe Experience Manager] 桌面应用程序的发行详细信息、增强功能、新增功能、兼容性以及下载链接。'
 mini-toc-levels: 1
 feature: Desktop App,Release Information
@@ -23,7 +23,7 @@ ht-degree: 11%
 
 **支持的[!DNL Experience Manager]版本**&#x200B;包括：
 
-* [!DNL Experience Manager]作为[!DNL Cloud Service]。 请参阅[发行说明](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/home)。
+* [!DNL Experience Manager]作为[!DNL Cloud Service]。 请参阅[发行说明](https://experienceleague.adobe.com/zh-hans/docs/ experience-manager-cloud-service/content/release-notes/home)。
 * [!DNL Experience Manager] 6.5.0或更高版本，位于AdobeManaged Services (AMS)或内部部署。 请参阅[service pack发行说明](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/release-notes/release-notes)。
 
 [!DNL Adobe Experience Manager]桌面应用程序可用于以下&#x200B;**操作系统**：
