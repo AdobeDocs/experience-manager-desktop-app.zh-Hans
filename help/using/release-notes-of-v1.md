@@ -417,7 +417,7 @@ AEM桌面应用程序的挂载点在版本1.4和1.5中进行了更改。在macOS
 
 ## 有用资源 {#helpful-resources}
 
-* [AEM文档](https://experienceleague.adobe.com/en/docs)
+* [AEM文档](https://experienceleague.adobe.com/zh-hans/docs)
 * [使用AEM桌面应用程序v1.x](use-app-v1.md)
 * [AEM桌面应用程序v1.x最佳实践](best-practices-for-v1.md)
 

@@ -21,7 +21,7 @@ AEM桌面应用程序消除了您在AEM中更新不正确的本地副本或更�
 
 >[!NOTE]
 >
->在阅读本文档之前，您可以查看总体[AEM和Creative Cloud集成最佳实践](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/aem-cc-integration-best-practices)，了解该主题的更高级概述。
+>在阅读本文档之前，您可以查看总体[AEM和Creative Cloud集成最佳实践](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/assets/administer/aem-cc-integration-best-practices)，了解该主题的更高级概述。
 
 ## AEM桌面应用程序架构 {#aem-desktop-app-architecture}
 
@@ -63,7 +63,7 @@ AEM桌面应用程序的关键功能包括：
 
 * 请勿经常使用AEM桌面应用程序网络驱动器来保存资产。 所有保存操作都将传输到AEM Assets。 因此，直接在装入的AEM Assets存储库中执行大量编辑操作是不切实际的。 直接在挂载的存储库中编辑资产会用不相关的版本阻塞资产的时间线，并在服务器上施加额外的开销。
 
-* 请勿使用AEM桌面应用程序将大量数据从一个AEM实例迁移到另一个实例。 请参阅[迁移指南](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/assets-migration-guide)以规划和执行资产迁移。 相反，桌面应用程序[支持在[!DNL Adobe Experience Manager]中首次批量上传](use-app-v1.md#bulkupload)大量资产。
+* 请勿使用AEM桌面应用程序将大量数据从一个AEM实例迁移到另一个实例。 请参阅[迁移指南](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/assets/administer/assets-migration-guide)以规划和执行资产迁移。 相反，桌面应用程序[支持在[!DNL Adobe Experience Manager]中首次批量上传](use-app-v1.md#bulkupload)大量资产。
 
 ## 适用于选定用例的Recommendations {#recommendations-for-selected-use-cases}
 
@@ -119,7 +119,7 @@ AEM桌面应用程序良好的用户体验依赖于稳定的网络连接和经�
 
 ### 网络注意事项 {#network-considerations}
 
-要了解有关AEM Assets网络配置的最佳实践，请转到[如何批量迁移资产](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/assets-migration-guide)文档。 可帮助为用户优化AEM桌面应用程序体验的一些重要方面包括：
+要了解有关AEM Assets网络配置的最佳实践，请转到[如何批量迁移资产](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/assets/administer/assets-migration-guide)文档。 可帮助为用户优化AEM桌面应用程序体验的一些重要方面包括：
 
 * **使用正确配置的Dispatcher**。 为提高安全性，请使用AEM Dispatcher，并确保已将其配置为在Dispatcher[&#128279;](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher)后连接到AEM的AEM桌面应用程序
 
@@ -131,8 +131,8 @@ AEM桌面应用程序良好的用户体验依赖于稳定的网络连接和经�
 
 ### 优化服务器性能 {#optimizing-server-performance}
 
-若要了解应该如何优化AEM Assets服务器以提高性能，请转到[AEM Assets性能优化指南](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/performance-tuning-guidelines)。 AEM桌面应用程序服务器性能的一些重要方面与优化工作流配置有关，以便它在资源上传时运行良好：
+若要了解应该如何优化AEM Assets服务器以提高性能，请转到[AEM Assets性能优化指南](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/assets/administer/performance-tuning-guidelines)。 AEM桌面应用程序服务器性能的一些重要方面与优化工作流配置有关，以便它在资源上传时运行良好：
 
-* **更多性能资产上传**。 将[AEM资产更新工作流模型配置为临时](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/performance-tuning-guidelines)。
+* **更多性能资产上传**。 将[AEM资产更新工作流模型配置为临时](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/assets/administer/performance-tuning-guidelines)。
 
 * **限制上载的服务器CPU**。 请确保正确设置了最大并行工作流作业参数，以便上传不会耗尽所有CPU。

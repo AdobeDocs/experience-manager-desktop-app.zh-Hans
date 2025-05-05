@@ -61,9 +61,9 @@ Assets API中的复制和移动方法要求将以下其他标头传递给[!DNL E
 * X深
 * X覆盖
 
-[!DNL Experience Manager]桌面使用包含默认端口的URL连接到[!DNL Experience Manager]。 因此，Dispatcher配置中的`virtualhosts`设置应包含默认端口号。 有关`virtualhosts`配置的详细信息，请参阅[识别虚拟主机](https://experienceleague.adobe.com/en/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration#identifying-virtual-hosts-virtualhosts)。
+[!DNL Experience Manager]桌面使用包含默认端口的URL连接到[!DNL Experience Manager]。 因此，Dispatcher配置中的`virtualhosts`设置应包含默认端口号。 有关`virtualhosts`配置的详细信息，请参阅[识别虚拟主机](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration#identifying-virtual-hosts-virtualhosts)。
 
-有关配置Dispatcher以传递这些其他标头的其他信息，请参阅[指定HTTP标头](https://experienceleague.adobe.com/en/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration#specifying-the-http-headers-to-pass-through-clientheaders)。
+有关配置Dispatcher以传递这些其他标头的其他信息，请参阅[指定HTTP标头](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration#specifying-the-http-headers-to-pass-through-clientheaders)。
 
 ### 代理支持 {#proxy-support}
 
@@ -127,6 +127,6 @@ Assets API中的复制和移动方法要求将以下其他标头传递给[!DNL E
 
 >[!MORELIKETHIS]
 >
->* 观看[ [!DNL Experience Manager] 桌面应用程序简介](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)（5分钟43秒）。
+>* 观看[ [!DNL Experience Manager] 桌面应用程序简介](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)（5分钟43秒）。
 >* [使用 [!DNL Experience Manager] 桌面应用程序](use-app-v1.md)。
 >* [疑难解答 [!DNL Experience Manager] 桌面应用程序](troubleshoot-app-v1.md)。

@@ -21,7 +21,7 @@ ht-degree: 0%
 
 * **了解桌面应用程序的工作方式**：在开始使用应用程序之前，请花一些时间了解该应用程序的工作方式。 了解[!DNL Experience Manager] Web界面与桌面之间的链接、存储库映射、资产缓存、本地保存和后台上传。 查看[工作方式](release-notes.md#how-app-works)。
 
-* **避免在文件夹名称中使用不受支持的字符**：在创建或上传文件夹时，请勿使用空格和无效字符。 在[在 [!DNL Adobe Experience Manager Assets]](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/manage-assets#creating-folders)中创建文件夹中查看字符列表。 文件夹名称中不受支持的字符可能会影响某些[!DNL Experience Manager]用例。
+* **避免在文件夹名称中使用不受支持的字符**：在创建或上传文件夹时，请勿使用空格和无效字符。 在[在 [!DNL Adobe Experience Manager Assets]](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/assets/managing/manage-assets#creating-folders)中创建文件夹中查看字符列表。 文件夹名称中不受支持的字符可能会影响某些[!DNL Experience Manager]用例。
 
 * **避免冲突的最佳实践**：为避免在协作处理多个资产时潜在冲突，请转到[避免编辑冲突](using.md#adv-workflow-collaborate-avoid-conflicts)。
 
@@ -301,8 +301,8 @@ sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-pl
 
 从[!DNL Experience Manager]用户界面中浏览资源时，不显示过期的资源。 管理员可以配置设置，以防止在从桌面应用程序和Asset Link进行浏览时查看、搜索和获取过期的资产。 这样做可确保这些操作期间无法访问过期的资产。 该配置适用于所有用户，而不管管理员权限如何。
 
-* Experience Manager6.5中用于隐藏过期资源的[配置](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/manage-assets#hide-expired-assets-via-acp-api)。
-* 在Experience Manageras a Cloud Service中配置[以隐藏过期的资源](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets#hide-expired-assets-via-acp-api)。
+* Experience Manager6.5中用于隐藏过期资源的[配置](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/assets/managing/manage-assets#hide-expired-assets-via-acp-api)。
+* 在Experience Manageras a Cloud Service中配置[以隐藏过期的资源](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets#hide-expired-assets-via-acp-api)。
 
 <!--
 ### Need additional help with [!DNL Experience Manager] desktop app {#additional-help}

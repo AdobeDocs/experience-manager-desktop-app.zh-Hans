@@ -60,7 +60,7 @@ ht-degree: 0%
 
 1. 如果您从其他版本的应用程序升级，请参阅[升级桌面应用程序](#upgrade-from-previous-version)。
 
-1. 如果您使用[!DNL Experience Manager]作为[!DNL Cloud Service]、[!DNL Experience Manager] 6.4.4或更高版本或[!DNL Experience Manager] 6.5.0或更高版本，请跳过此步骤。 确保您的[!DNL Experience Manager]安装程序符合[发行说明](release-notes.md)中所述的兼容性要求。 如有必要，请下载适用的[兼容包](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)，并使用[!DNL Experience Manager]包管理器以[!DNL Experience Manager]管理员身份安装它。 若要安装包，请参阅[如何使用包](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/contentmanagement/package-manager)。
+1. 如果您使用[!DNL Experience Manager]作为[!DNL Cloud Service]、[!DNL Experience Manager] 6.4.4或更高版本或[!DNL Experience Manager] 6.5.0或更高版本，请跳过此步骤。 确保您的[!DNL Experience Manager]安装程序符合[发行说明](release-notes.md)中所述的兼容性要求。 如有必要，请下载适用的[兼容包](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support)，并使用[!DNL Experience Manager]包管理器以[!DNL Experience Manager]管理员身份安装它。 若要安装包，请参阅[如何使用包](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/sites/administering/contentmanagement/package-manager)。
 
 1. 运行安装程序二进制文件，并按照屏幕上的说明进行安装。
 
@@ -92,7 +92,7 @@ ht-degree: 0%
 
    *图：应用程序在登录后显示DAM内容*
 
-1. （[!DNL Experience Manager] 6.5.1或更高版本）如果正在使用带有[!DNL Experience Manager] 6.5.1或更高版本的桌面应用程序，请将S3或Azure连接器升级到版本1.10.4或更高版本。 请参阅[Azure连接器](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#azure-data-store)或[S3连接器](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#amazon-s-data-store)。
+1. （[!DNL Experience Manager] 6.5.1或更高版本）如果正在使用带有[!DNL Experience Manager] 6.5.1或更高版本的桌面应用程序，请将S3或Azure连接器升级到版本1.10.4或更高版本。 请参阅[Azure连接器](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#azure-data-store)或[S3连接器](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#amazon-s-data-store)。
 
    如果您是AdobeManaged Services (AMS)客户，请联系Adobe客户支持。
 
