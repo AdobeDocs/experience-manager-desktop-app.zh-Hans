@@ -95,7 +95,7 @@ Assets API中的复制和移动方法要求将以下其他标头传递给[!DNL E
 
 ### 用于管理缓存的应用程序内选项 {#in-app-option-to-manage-cache}
 
-您可以控制可用于本地缓存的磁盘空间量。 为了更加流畅的体验，Assets服务器上的工件将缓存在本地。 您可以根据自己的要求更改默认值。 此外，您还可以清除缓存以重新获取所有资源。 要设置所需的选项，请单击应用程序的图标，然后单击&#x200B;**[!UICONTROL Advanced]** > **[!UICONTROL Manage Cache]**。****
+您可以控制可用于本地缓存的磁盘空间量。 为了更加流畅的体验，Assets服务器上的工件将缓存在本地。 您可以根据自己的要求更改默认值。 此外，您还可以清除缓存以重新获取所有资源。 要设置所需的选项，请单击应用程序的图标，然后单击&#x200B;**[!UICONTROL Advanced]** > **[!UICONTROL Manage Cache]**。**&#x200B;**
 
 >[!NOTE]
 >
@@ -127,6 +127,6 @@ Assets API中的复制和移动方法要求将以下其他标头传递给[!DNL E
 
 >[!MORELIKETHIS]
 >
-* 观看[ [!DNL Experience Manager] 桌面应用程序简介](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)（5分钟43秒）。
-* [使用 [!DNL Experience Manager] 桌面应用程序](use-app-v1.md)。
-* [疑难解答 [!DNL Experience Manager] 桌面应用程序](troubleshoot-app-v1.md)。
+>* 观看[ [!DNL Experience Manager] 桌面应用程序简介](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)（5分钟43秒）。
+>* [使用 [!DNL Experience Manager] 桌面应用程序](use-app-v1.md)。
+>* [疑难解答 [!DNL Experience Manager] 桌面应用程序](troubleshoot-app-v1.md)。
