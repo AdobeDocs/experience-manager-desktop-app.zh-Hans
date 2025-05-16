@@ -156,7 +156,7 @@ Windows安装程序有两个版本可用于AEM桌面应用程序版本2.3.1及�
 
 **在应用程序v2.1.2.0**&#x200B;中更新
 
-* [!UICONTROL Clear Cookies]的新选项已添加到应用程序的主菜单。 它有助于解决潜在的登录问题，例如，在将连接从服务器更改为另一个服务器时。 在连接](/help/using/troubleshoot.md#cannot-login-cookies-issue)之前查看[清除Cookie。
+* [!UICONTROL Clear Cookies]的新选项已添加到应用程序的主菜单。 它有助于解决潜在的登录问题，例如，在将连接从服务器更改为另一个服务器时。 在连接[&#128279;](/help/using/troubleshoot.md#cannot-login-cookies-issue)之前查看清除Cookie。
 
 * 新增了一个选项，如果选定该选项，则允许应用程序上传节点名称在[!DNL Adobe Experience Manager]中与本地文件和文件夹名称匹配的文件夹和文件。 此过程可确保本地名称和上传名称之间的一致性。
 
