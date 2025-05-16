@@ -4,9 +4,9 @@ description: 使用 [!DNL Adobe Experience Manager] 桌面应用程序，从您�
 mini-toc-levels: 1
 feature: Desktop App,Asset Management
 exl-id: fa19d819-231a-4a01-bfd2-6bba6fec2f18
-source-git-commit: ba980c1a1bad4a9627fc28ac7f6619b644fb1f04
+source-git-commit: fb11b41020a4c2b2c40e8adcde822c65a7fe8985
 workflow-type: tm+mt
-source-wordcount: '4060'
+source-wordcount: '4734'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ![您可以使用[!DNL Experience Manager]桌面应用程序完成的工作流和任务](assets/aem_desktop_app_usecases_v2.png "可以使用 [!DNL Adobe Experience Manager] 桌面应用程序完成的工作流和任务")
 
-下载[此](assets/aem_desktop_app_usecases_print.pdf)可打印的PDF文件。
+<!--Download [this](assets/aem_desktop_app_usecases_print.pdf) print-ready PDF file.-->
 
 ## 桌面应用程序的工作原理 {#how-app-works2}
 
@@ -47,15 +47,17 @@ ht-degree: 0%
 
 * **[!UICONTROL Open]**&#x200B;操作：只需打开资源即可在本机应用程序中预览它。 Adobe建议您避免使用此操作编辑资源。 原因是它不会签出资产。 同时，其他用户也可以进行编辑，导致编辑冲突。
 
+* **[!UICONTROL Open with]**&#x200B;操作： “打开方式”功能允许您使用默认应用程序以外的特定应用程序打开文件。 这对于选择首选程序、访问不同格式的文件、解决默认应用程序的问题或使用多个程序非常有用。 它允许您临时覆盖默认应用程序而不永久更改设置，从而提供了灵活性。
+
+* **[!UICONTROL Open In Web]**&#x200B;操作：要在[!DNL Experience Manager] Web界面中查看资产，请在Web中打开该资产。 您可以从[!DNL Experience Manager]界面启动更多工作流，如更新元数据或资源发现。
+
 * **[!UICONTROL Edit]**&#x200B;操作：使用操作修改图像。 单击[!UICONTROL Edit]可签出资产并在该资产上添加一个锁定图标。 单击“编辑”后，如果不想编辑该资产，请单击[!UICONTROL Toggle check-in]。 要删除、重命名或移动[!DNL Experience Manager] DAM文件夹层次结构中的资产，请使用[!DNL Experience Manager] Web界面操作，而不是编辑操作。
 
 * **[!UICONTROL Download]**&#x200B;操作：将资源下载到本地计算机。 您可以立即下载资产并稍后编辑；脱机工作并稍后上传更改。 Assets将下载到您文件系统的缓存文件夹中。
 
 * **[!UICONTROL Reveal File]**&#x200B;或&#x200B;**[!UICONTROL Reveal Folder]**&#x200B;操作：将资产下载到本地缓存文件夹时，应用程序将模拟本地网络驱动器。 它为每个资源提供本地路径。 要了解此路径，请使用应用程序中的相应显示选项。 在Creative Cloud应用程序中放置资源时，需要执行展现操作。 查看[放置资源](using.md#place-assets-in-native-documents)。
 
-* **[!UICONTROL Open In Web]**&#x200B;操作：要在[!DNL Experience Manager] Web界面中查看资产，请在Web中打开该资产。 您可以从[!DNL Experience Manager]界面启动更多工作流，如更新元数据或资源发现。
-
-* **[!UICONTROL Delete]**&#x200B;操作：从[!DNL Experience Manager] DAM存储库中删除资产。 该操作会删除Experience Manager服务器上的资源原始副本。 如果只想放弃对本地资产的修改，请参阅[放弃更改](using.md#edit-assets-upload-updated-assets)。
+* **[!UICONTROL Delete]**&#x200B;操作：从[!DNL Experience Manager] DAM存储库中删除资产。 该操作会删除Experience Manager服务器上资源的原始副本。 如果只想放弃对本地资产的修改，请参阅[放弃更改](using.md#edit-assets-upload-updated-assets)。
 
 * **[!UICONTROL Upload Changes]**：仅在您明确上载到[!DNL Experience Manager]服务器时，桌面应用才会上载更新的资产。 在保存编辑时，更改仅保存在本地计算机上。 上传时，资产会自动签入，并且锁图标会被移除。 请参阅[编辑资源](using.md#edit-assets-upload-updated-assets)。
 
@@ -71,6 +73,28 @@ ht-degree: 0%
    ![选择“显示Assets的桌面操作”以启用桌面操作](assets/enable_desktop_actions.png)
 
    *图：选择[!UICONTROL Show Desktop Actions For Assets]以启用桌面操作。*
+
+## 查看资产 {#view-assets}
+
+AEM桌面应用程序允许您以四种不同的视图查看资源：
+
+* **[!UICONTROL Show Assets]：**&#x200B;允许您查看所有资源。
+* **[!UICONTROL Show Collections]：**&#x200B;允许您查看在本机AEM应用程序中创建的所有集合。 查看更多[收藏集](#collections-desktop-app)。
+* **[!UICONTROL Edited Locally]：**&#x200B;允许您显示所有本地修改的资源。 在此视图中，您可以添加和上传多个资源。
+* **[!UICONTROL Asset transfers]：**&#x200B;允许您查看从本地应用程序传输到本地或反向传输的所有资源。
+* **[!UICONTROL Pinned items]：**&#x200B;允许您查看所有固定项目。
+
+要在AEM桌面应用程序中的各种资源视图中进行选择，请执行以下步骤：
+
+1. 打开AEM桌面应用程序。
+
+1. 转到右上方的下拉菜单。 从可用视图中选择一个。
+
+   ![固定或取消固定文件夹](assets/view-pinned-assets.png)
+
+### 查看新添加的文件夹和文件 {#view-newly-added-files-folders}
+
+您可以将本地计算机上新创建的资源上传到AEM，其中存储了中央存储库。 要在本地查看这些新创建的资产，请转到&#x200B;**[!UICONTROL View]**&#x200B;下拉菜单并选择&#x200B;**[!UICONTROL Show Assets]**&#x200B;以查看所有更新及其时间轴和标题，或选择&#x200B;**[!UICONTROL Edited Locally]**。 这两个选项都会明确显示本地编辑的资源。
 
 ## 浏览、搜索和预览资源 {#browse-search-preview-assets}
 
@@ -95,11 +119,59 @@ ht-degree: 0%
 >
 >应用程序通过跨多个元数据字段匹配搜索条件来显示资源，而不只是资源的标题或文件名。
 
-## 下载资源 {#download-assets}
+## 资产管理 {#assets-management}
+
+资产管理涉及组织、维护和优化数字资产以简化工作流。 它包括一些任务，如复制和重命名文件、固定或取消固定文件夹以进行快速访问，以及在各种布局中查看资源。 这有助于提高效率、简化资产跟踪，并确保跨平台轻松检索和组织数字资产。
+
+### 重复文件 {#duplicate-files}
+
+如果要保留原始文件并对类似文件进行更改，则可以同时复制位于不同位置（本地和云）的文件。 它可以通过跨资产执行重复文件操作来完成。
+
+要在AEM桌面应用程序中复制文件，请执行以下步骤：
+
+1. 浏览到文件夹并选择要复制的资产。
+
+   ![重复文件](assets/more-options.png)
+
+1. 单击&#x200B;**[!UICONTROL More actions]** ![更多操作图标](assets/do-not-localize/more2_da2.png)并选择![重复图标](assets/do-not-localize/duplicate.svg) **[!UICONTROL Duplicate File]**&#x200B;操作。
+
+1. 将使用相同的文件名和内容创建重复的文件。
+
+### 重命名资源的标题 {#rename-asset-title}
+
+要重命名资源的标题，请执行以下步骤：
+
+1. 浏览要重命名的资源。
+
+1. 单击&#x200B;**[!UICONTROL More actions]** ![更多操作图标](assets/do-not-localize/more2_da2.png)，然后选择&#x200B;**[!UICONTROL Rename]**&#x200B;以添加所需的资产标题。
+
+<!--1. Click **[!UICONTROL More actions]** ![More actions icon](assets/do-not-localize/more2_da2.png) and select **[!UICONTROL open in web]** to open the asset in its native application.
+
+1. Go to asset details. Under [!UICONTROL Basic] tab, go to title and enter the text.-->
+
+### 固定或取消固定文件夹 {#pin-unpin-folder}
+
+要快速访问，您可以通过执行以下步骤来固定或取消固定文件夹：
+
+1. 浏览要固定或取消固定的资源。
+
+1. 单击&#x200B;**[!UICONTROL More actions]** ![更多操作图标](assets/do-not-localize/more2_da2.png)并选择[!UICONTROL pin]以固定资源或文件夹。 或者，单击[!UICONTROL unpin]以取消固定它。
+
+   ![固定或取消固定文件夹](assets/pin-unpin.png)
+
+### 自动刷新 {#auto-refresh}
+
+自动刷新功能可自动实时更新内容，确保您始终能够看到最新信息，而无需手动重新加载页面。 执行以下步骤可自动刷新资源以获取已更新资源的列表：
+
+1. 打开AEM桌面应用程序。
+
+1. 单击菜单栏上的![刷新图标](assets/do-not-localize/refresh.png)以获取更新。
+
+## 下载资产 {#download-assets}
 
 您可以在本地文件系统上下载资产。 应用程序从[!DNL Experience Manager]服务器获取资产，并将相同的副本保存在本地文件系统中。
 
-单击![更多选项图标](assets/do-not-localize/more2_da2.png)查看选项，然后单击![下载图标](assets/do-not-localize/download_cloud_da2.png)进行下载。
+单击选项的&#x200B;**[!UICONTROL More actions]** ![更多选项图标](assets/do-not-localize/more2_da2.png)，然后单击![下载图标](assets/do-not-localize/download_cloud_da2.png)进行下载。
 
 ![资源的下载选项](assets/download_option_da2.png "资源的下载选项")
 
@@ -128,13 +200,49 @@ ht-degree: 0%
 
 要打开资源的本地下载文件夹，请单击![更多操作图标](assets/do-not-localize/more2_da2.png)，然后单击![显示图标](assets/do-not-localize/reveal_action2_da2.png) **[!UICONTROL Reveal File]**&#x200B;操作。
 
+## 收藏集 {#collections-desktop-app}
+
+AEM桌面应用允许您[查看](#view-collections-desktop-app)、[下载](#download-collections-desktop-app)并浏览在[!DNL Adobe Experience Manager Assets]应用程序上创建的集合。
+
+### 查看收藏集 {#view-collections-desktop-app}
+
+执行以下步骤以在桌面应用程序中查看收藏集：
+
+1. 打开AEM桌面应用程序，然后转到[查看资源](#view-assets)。
+
+1. 选择&#x200B;**[!UICONTROL Show Collections]**。 将显示本机应用程序上可用的收藏集。
+
+   ![收藏集桌面应用程序](assets/collections-desktop-app.png)
+
+### 下载收藏集 {#download-collections-desktop-app}
+
+执行以下步骤以在桌面应用程序中下载收藏集：
+
+1. 请按照[查看收藏集](#view-collections-desktop-app)中所示的步骤1和2操作。
+
+1. 在要下载的收藏集中转到更多操作![更多操作图标](assets/do-not-localize/more2_da2.png)。
+
+1. 单击&#x200B;**[!UICONTROL Download]**&#x200B;下载特定收藏集。
+
+## 使用元数据架构创建文件夹 {#create-folder-with-metadata-schema}
+
+使用AEM桌面应用程序，您可以在创建新文件夹时分配元数据。 为此，请执行以下步骤：
+
+1. 转到创建目录图标![添加文件夹图标](assets/do-not-localize/add-folder.svg)。 出现&#x200B;**[!UICONTROL Create Directory]**&#x200B;屏幕。
+
+1. 添加以下详细信息：
+   * 文件夹的&#x200B;**[!UICONTROL Name]**。
+   * **[!UICONTROL Folder Metadata Schema]**&#x200B;以选择文件夹的元数据层次结构，如果您不想将任何元数据与其关联，请选择&#x200B;**[!UICONTROL none]**。
+
+1. 单击&#x200B;**[!UICONTROL OK]**&#x200B;以继续。
+
 ## 使用资产或将资产放入本机文档 {#place-assets-in-native-documents}
 
 在某些情况下，例如在将资源放入本机文档时，您可以在Windows资源管理器或Mac Finder中访问文件。 要访问本地下载文件的文件系统位置，请使用![显示图标](assets/do-not-localize/reveal_action2_da2.png) **[!UICONTROL Reveal File]**&#x200B;选项。
 
 ![显示资产的文件操作](assets/revealfile_action_da2.png "显示资产的文件操作")
 
-单击文件夹上的&#x200B;**[!UICONTROL Reveal File]**&#x200B;或&#x200B;**[!UICONTROL Reveal Folder]**，以使用本地计算机上预先选定的文件或文件夹打开Windows资源管理器或Mac Finder。 例如，在支持放置或链接本地文件的本地应用程序中放置[!DNL Experience Manager]文件时，选项非常有用。 若要了解如何在Adobe InDesign中放置文件，请参阅[放置图形](https://helpx.adobe.com/cn/indesign/using/placing-graphics.html)。
+单击文件夹上的&#x200B;**[!UICONTROL Reveal File]**&#x200B;或&#x200B;**[!UICONTROL Reveal Folder]**，以使用本地计算机上预先选定的文件或文件夹打开Windows资源管理器或Mac Finder。 例如，在支持放置或链接本地文件的本地应用程序中放置[!DNL Experience Manager]文件时，选项非常有用。 若要了解如何在Adobe InDesign中放置文件，请参阅[放置图形](https://helpx.adobe.com/indesign/using/placing-graphics.html)。
 
 **[!UICONTROL Reveal File]**&#x200B;操作将打开本地网络共享。 它仅显示本地可用的资源。 也就是说，它会显示使用应用程序显示、下载或打开/编辑的资产。 本地网络共享没有将任何更改上传到[!DNL Experience Manager]。 要上载更改，请在应用程序中显式使用&#x200B;**[!UICONTROL Upload Changes]**&#x200B;或&#x200B;**[!UICONTROL Upload]**&#x200B;操作。
 
@@ -157,7 +265,7 @@ ht-degree: 0%
 * 您已开始编辑资产，但未先签出该资产（例如，只需打开它）。
 * 您打算尽快开始编辑资产，不希望其他人编辑资产。
 
-完成编辑后，应用程序将显示已更改资产的&#x200B;**[!UICONTROL Edited Locally]**&#x200B;状态。 在您将更改上传到[!DNL Experience Manager]之前，保存到资源的所有更改仅供本地使用。 要逐个上传一个资产或几个资产，请在资产选项中单击&#x200B;**[!UICONTROL Upload Changes]**。 它将在[!DNL Experience Manager]中创建该资源的版本。 使用[!DNL Assets]的Web界面，您可以在[时间线视图](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/assets/using/activity-stream)中查看资产历史记录。
+完成编辑后，应用程序将显示已更改资产的&#x200B;**[!UICONTROL Edited Locally]**&#x200B;状态。 在您将更改上传到[!DNL Experience Manager]之前，保存到资源的所有更改仅供本地使用。 要逐个上传一个资产或几个资产，请在资产选项中单击&#x200B;**[!UICONTROL Upload Changes]**。 它将在[!DNL Experience Manager]中创建该资源的版本。 使用[!DNL Assets]的Web界面，您可以在[时间线视图](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/using/activity-stream)中查看资产历史记录。
 
 应用程序中的![上载更改选项](assets/upload_changes_single1_da2.png "应用程序中的“上载更改”选项")
 
@@ -191,6 +299,9 @@ ht-degree: 0%
 >[!NOTE]
 >
 >此传输列表不是永久性的，如果您退出应用程序然后重新打开它，则此列表将不可用。
+
+<!--### Upload local file to AEM {#upload-local-file-to-aem}-->
+
 
 ### 管理资源名称中的特殊字符 {#special-characters-in-filename}
 
@@ -297,7 +408,7 @@ Do not use &#92;&#92; in the names of files and &#92;&#116; &#38; in the names o
 
 >[!NOTE]
 >
->请勿使用上传功能跨两个[!DNL Experience Manager]部署迁移资产。 请参阅[迁移指南](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/assets/administer/assets-migration-guide)。
+>请勿使用上传功能跨两个[!DNL Experience Manager]部署迁移资产。 请参阅[迁移指南](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/assets-migration-guide)。
 
 ### 已转移的资产列表 {#list-of-transferred-assets}
 
@@ -317,7 +428,7 @@ Do not use &#92;&#92; in the names of files and &#92;&#116; &#38; in the names o
 
 例如，对于应用程序中签出的资产，Web界面上的可用操作为[!UICONTROL Open]、[!UICONTROL Reveal]和[!UICONTROL Check in]。
 
-![Web界面中的[!DNL Experience Manager]桌面操作](assets/assets_web_actions_da2.png "Experience ManagerWeb界面中的")桌面操作
+![Web界面中的[!DNL Experience Manager]桌面操作](assets/assets_web_actions_da2.png "Experience Manager Web界面中的")桌面操作
 
 >[!NOTE]
 >
@@ -352,11 +463,11 @@ Do not use &#92;&#92; in the names of files and &#92;&#116; &#38; in the names o
 
 ![解决编辑冲突的选项](assets/editing_conflict_dialog_da2.png "解决编辑冲突的选项")
 
-## 高级工作流：在InDesign文件中放置和链接资源 {#adv-workflow-place-assets-indesign}
+## 高级工作流程：在InDesign文件中放置和链接资源 {#adv-workflow-place-assets-indesign}
 
 当您使用[!DNL Experience Manager]桌面应用程序打开包含链接资源的文件时，这些资源会预先下载并显示在本机应用程序中。 要使此工作流正常工作，您的本机应用程序必须支持放置指向本地资产的链接，并且[!DNL Experience Manager]必须支持在二进制文件中将这些链接解析为服务器端引用。
 
-[!DNL Experience Manager]桌面应用程序通过一些选定的Adobe Creative Cloud桌面应用程序和文件格式(Adobe InDesign、Adobe Illustrator和Adobe Photoshop)支持此工作流。 利用工作流，可高效地处理支持的Creative Cloud文件。 如果用户A将资源添加到InDesign文件并将其签入[!DNL Experience Manager]，则用户B可以在文件中查看资源，即使它们不属于该文件。 这些资产将在用户B的计算机上本地下载。
+[!DNL Experience Manager]桌面应用程序通过一些选定的Adobe Creative Cloud桌面应用程序和文件格式(Adobe InDesign、Adobe Illustrator和Adobe Photoshop)支持此工作流。 利用工作流，可高效地使用支持的Creative Cloud文件。 如果用户A将资源添加到InDesign文件并将其签入[!DNL Experience Manager]，则用户B可以在文件中查看资源，即使它们不属于该文件。 这些资产将在用户B的计算机上本地下载。
 
 >[!NOTE]
 >
@@ -366,11 +477,11 @@ Do not use &#92;&#92; in the names of files and &#92;&#116; &#38; in the names o
 
 要使用图像资源和InDesign尝试此工作流，请执行以下步骤：
 
-1. 将已放置资源的INDD文件保存在[!DNL Experience Manager]中。 要了解如何创建此类INDD文件，请参阅[放置图形](https://helpx.adobe.com/cn/indesign/using/placing-graphics.html)。
+1. 将已放置资源的INDD文件保存在[!DNL Experience Manager]中。 要了解如何创建此类INDD文件，请参阅[放置图形](https://helpx.adobe.com/indesign/using/placing-graphics.html)。
 1. 从桌面应用程序中，**[!UICONTROL Edit]**&#x200B;包含置入了[!DNL Experience Manager]中的资产的INDD文件。
-1. 应用程序下载InDesign文件和链接的资源。 当InDesign打开文档时，将解析链接，下载资源，并在InDesign文档中显示资源。
-1. 若要在InDesign文件中放置新图形，请对资源使用&#x200B;**[!UICONTROL Reveal File]**&#x200B;操作。 该操作将在本地下载资产，并在Windows资源管理器或Mac Finder中打开本地网络共享位置。
-1. 将显示的资源放在InDesign文档中。 这样做会在文档中创建链接。
+1. 应用程序下载InDesign文件和链接的资源。 InDesign打开文档时，将解析链接，下载资源，并在InDesign文档中显示资源。
+1. 要在InDesign文件中放置新图形，请对资源使用&#x200B;**[!UICONTROL Reveal File]**&#x200B;操作。 该操作将在本地下载资产，并在Windows资源管理器或Mac Finder中打开本地网络共享位置。
+1. 将显示的资源放入InDesign文档中。 这样做会在文档中创建链接。
 1. 在InDesign文档中完成编辑后，保存该文档并使用桌面应用程序将其上传到[!DNL Experience Manager]。
 
 ## 高级工作流：在本地下载资产 {#adv-workflow-download-assets-locally}
