@@ -3,7 +3,7 @@ cloud: Experience Cloud
 product: adobe experience manager
 audience: end-user
 user-guide-title: Experience Manager 桌面应用程序指南
-breadcrumb-title: Desktop App 指南
+breadcrumb-title: Desktop 应用程序指南
 user-guide-description: 了解如何使用 Experience Manager 桌面应用程序连接存储库和桌面程序，以便更快地访问资源并简化工作流。
 feature-set: Experience Manager Assets,Experience Manager
 feature: Desktop App
@@ -11,7 +11,7 @@ role: User, Admin
 source-git-commit: 5676e7ece8bb43f051dae72d17e15ab1c34caefc
 workflow-type: tm+mt
 source-wordcount: '64'
-ht-degree: 59%
+ht-degree: 53%
 
 ---
 
