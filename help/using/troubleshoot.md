@@ -2,7 +2,7 @@
 title: ' [!DNL Adobe Experience Manager] 桌面应用程序的最佳实践和疑难解答'
 description: 按照最佳实践和疑难解答来解决与安装、升级、配置等相关的偶然问题。
 exl-id: f388e4ac-907d-4093-ba6f-86ecdafeb015
-source-git-commit: 5676e7ece8bb43f051dae72d17e15ab1c34caefc
+source-git-commit: a8cb0aaab08f24c83a9b5640a96a5ae8895685d2
 workflow-type: tm+mt
 source-wordcount: '2275'
 ht-degree: 0%
@@ -21,11 +21,11 @@ ht-degree: 0%
 
 * **了解桌面应用程序的工作方式**：在开始使用应用程序之前，请花一些时间了解该应用程序的工作方式。 了解[!DNL Experience Manager] Web界面与桌面之间的链接、存储库映射、资产缓存、本地保存和后台上传。 查看[工作方式](release-notes.md#how-app-works)。
 
-* **避免在文件夹名称中使用不受支持的字符**：在创建或上传文件夹时，请勿使用空格和无效字符。 在[在 [!DNL Adobe Experience Manager Assets]](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/assets/managing/manage-assets#creating-folders)中创建文件夹中查看字符列表。 文件夹名称中不受支持的字符可能会影响某些[!DNL Experience Manager]用例。
+* **避免在文件夹名称中使用不受支持的字符**：在创建或上传文件夹时，请勿使用空格和无效字符。 在[在 [!DNL Adobe Experience Manager Assets]](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/manage-assets#creating-folders)中创建文件夹中查看字符列表。 文件夹名称中不受支持的字符可能会影响某些[!DNL Experience Manager]用例。
 
-* **避免冲突的最佳实践**：为避免在协作处理多个资产时潜在冲突，请转到[避免编辑冲突](using.md#adv-workflow-collaborate-avoid-conflicts)。
+* **避免冲突的最佳实践**：为避免在协作处理多个资产时潜在冲突，请转到[避免编辑冲突](assets-management-tasks.md#adv-workflow-collaborate-avoid-conflicts)。
 
-* **为大型分层文件夹使用文件夹上载**：使用[!DNL Experience Manager]桌面应用程序上载大型文件夹，而不使用Assets Web界面或其他方法。 应用程序会通过日志记录和监控在后台上传资产。 请参阅[批量上传资产](using.md#bulk-upload-assets)。
+* **为大型分层文件夹使用文件夹上载**：使用[!DNL Experience Manager]桌面应用程序上载大型文件夹，而不使用Assets Web界面或其他方法。 应用程序会通过日志记录和监控在后台上传资产。 请参阅[批量上传资产](using-desktop-app.md#bulk-upload-assets)。
 
 * **使用最新版本**：使用最新应用程序版本。 在安装新的应用版本或升级到较新的[!DNL Experience Manager]版本之前，请务必检查兼容性。 请参阅[发行说明](release-notes.md)。
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->在支持请求或票证上与Adobe客户支持部门合作时，可能会要求您共享日志文件，以帮助客户支持团队了解此问题。 存档整个`Logs`文件夹并与您的客户支持联系人共享。
+>在就支持请求或票证与Adobe客户支持部门合作时，可能会要求您共享日志文件，以帮助客户支持团队了解此问题。 存档整个`Logs`文件夹并与您的客户支持联系人共享。
 
 ### 更改日志文件中的详细信息级别 {#level-of-details-in-log}
 
@@ -301,8 +301,8 @@ sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-pl
 
 从[!DNL Experience Manager]用户界面中浏览资源时，不显示过期的资源。 管理员可以配置设置，以防止在从桌面应用程序和Asset Link进行浏览时查看、搜索和获取过期的资产。 这样做可确保这些操作期间无法访问过期的资产。 该配置适用于所有用户，而不管管理员权限如何。
 
-* Experience Manager6.5中用于隐藏过期资源的[配置](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/assets/managing/manage-assets#hide-expired-assets-via-acp-api)。
-* 在Experience Manageras a Cloud Service中配置[以隐藏过期的资源](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets#hide-expired-assets-via-acp-api)。
+* 在Experience Manager 6.5中配置[以隐藏过期的资源](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/manage-assets#hide-expired-assets-via-acp-api)。
+* 在Experience Manager as a Cloud Service中配置[以隐藏过期的资源](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets#hide-expired-assets-via-acp-api)。
 
 <!--
 ### Need additional help with [!DNL Experience Manager] desktop app {#additional-help}
@@ -325,4 +325,4 @@ Create Jira ticket with the following information:
 >[!MORELIKETHIS]
 >
 >* [已知问题](release-notes.md#known-issues-v2)
->* [避免编辑冲突](using.md#adv-workflow-collaborate-avoid-conflicts)
+>* [避免编辑冲突](assets-management-tasks.md#adv-workflow-collaborate-avoid-conflicts)
