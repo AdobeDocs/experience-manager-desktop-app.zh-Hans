@@ -127,6 +127,6 @@ Assets API中的复制和移动方法要求将以下其他标头传递给[!DNL E
 
 >[!MORELIKETHIS]
 >
->* 观看[ [!DNL Experience Manager] 桌面应用程序简介](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)（5分钟43秒）。
+>* 观看[&#x200B; [!DNL Experience Manager] 桌面应用程序简介](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)（5分钟43秒）。
 >* [使用 [!DNL Experience Manager] 桌面应用程序](use-app-v1.md)。
 >* [疑难解答 [!DNL Experience Manager] 桌面应用程序](troubleshoot-app-v1.md)。
