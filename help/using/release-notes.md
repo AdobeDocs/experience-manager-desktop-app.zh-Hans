@@ -4,67 +4,32 @@ description: ' [!DNL Adobe Experience Manager] 桌面应用程序的发行详细
 mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: 3ee1e39553b81e335e07c278537a826df3ad9482
+source-git-commit: 64c918a17efd082aee2d63f1379023b1da05a13b
 workflow-type: tm+mt
-source-wordcount: '2502'
-ht-degree: 9%
+source-wordcount: '2662'
+ht-degree: 8%
 
 ---
 
 # [!DNL Adobe Experience Manager]桌面应用发行说明 {#release-notes-v2}
 
-下面是最新桌面应用程序版本3.0.0的发行信息。 发行日期为2025年7月31日。
+桌面应用程序版本3.0.1的发布日期为2025年12月18日。  此版本包括以下增强功能：
 
-此版本提供了对收藏集、上传、签入/签出、元数据管理和总体可用性的多项增强。 这些更新提高了效率，简化了资源处理，并在AEM桌面应用程序中提供了更直观的实时体验。
+**更顺畅、更可靠的工作流**
 
-![桌面应用用户界面](assets/dekktop-app-user-interface.png)
+* 通过修复AEM桌面应用程序与AEM Author之间的同步问题，确保文件夹命名的一致性。
+* 通过在活动传输操作期间允许完整的应用程序功能，启用不间断的工作流。
+* 提高了文件夹属性页面的可靠性，允许对文件夹元数据和设置进行一致的访问。
 
-**收藏集**
+**更快更快速的用户体验**
 
-* 您现在可以查看、下载和浏览收藏集。
+* 通过将阻塞I/O替换为异步处理来增强UI响应能力，从而在高负载操作期间提供更顺畅的体验。
+* 通过在上传和下载流中引入分页功能，增强大型文件传输，从而高效处理大型数据集。
 
-* 添加了对下载收藏集中可用文件夹的支持。
+**更强大的稳定性和可靠性**
 
-* 自动同步功能现在使收藏集中下载的资源定期将AEM资源管理与本地文件系统同步。
-
-* 当您更新属于某个收藏集的资产时，系统会自动在临时缓存文件夹和桌面应用程序UI中更新该资产。
-
-**上传**
-
-* 您可以将新创建的资源从本地计算机上传到AEM（存储了中央存储库），并在桌面应用程序中查看这些资源。
-
-* 桌面应用程序现在会自动识别在本地文件系统上已下载文件夹下创建的新文件，并将它们上传到AEM。 必须保持桌面应用程序处于打开状态，才能识别本地文件系统上的新文件。
-
-**签入和签出**
-
-* 签入和签出功能允许您通过锁定文件以进行编辑（签出）并保存所做的更改而管理文件访问，同时使其对其他人可用（签入）。
-
-* 能够将资产从桌面应用程序拖到目标Creative Cloud应用程序。 桌面应用程序会自动签出资产并将其下载到本地文件系统。
-
-**元数据**
-
-* 创建新文件夹时，您可以分配元数据。
-
-* Experience Manager桌面应用程序现在可让您将资源或文件夹移动到新位置，同时保留其元数据，从而帮助组织和简化文件系统。
-
-* AEM桌面应用程序现在允许您查看文件夹属性，如文件夹缩略图、大小、路径、创建日期、标记、元数据等。
-
-**可用性改进**
-
-
-* 自动刷新功能可自动实时更新内容，确保您始终能够看到最新信息，而无需手动重新加载页面并获取已更新资产的列表。
-
-* 固定或取消固定文件夹功能允许您通过固定重要文件夹来轻松访问它们，或者在不再需要重要文件夹时通过取消固定来取消固定视图。
-
-* 重命名标题功能可让您轻松更新或修改资源的标题，帮助您随着内容的发展保持名称准确和有条理性。
-
-* 通过使用复制文件操作，您可以跨本地和云位置复制文件，从而保留原始文件并对类似文件进行更改。
-
-* 现在，导出选项允许将选定的文件和文件夹从桌面应用程序以平面结构下载到其特定目标位置。
-
-* 您现在可以访问“卡片”视图、“网格”视图或“树”视图中的资产，以便获得干净、有条理、美观的资产布局。
-
-* UI上更新了各种选项的各种标签，使应用程序更加直观。
+* 解决了由桌面应用程序交互触发的创作服务器重新启动问题，显着提高了系统稳定性。
+* 解决了在大型文件夹（数千个文件）下载或上传期间应用程序崩溃的问题。
 
 **支持的[!DNL Experience Manager]版本**&#x200B;包括：
 
@@ -82,6 +47,10 @@ Windows安装程序有两个版本可用于AEM桌面应用程序版本2.3.1及�
 
 | 操作系统 | [!DNL Experience Manager] as a [!DNL Cloud Service] | [!DNL Experience Manager] 6.x |
 |---|---|---|
+| macOS (v3.0.1) | [下载链接](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-x64-3.0.1.dmg) | [下载链接](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-x64-3.0.1.dmg) |
+| macOS Apple Silicon (M1) (v3.0.1) | [下载链接](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-arm64-3.0.1.dmg) | [下载链接](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-arm64-3.0.1.dmg) |
+| Windows 64位(v3.0.1) | [下载链接](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-3.0.1.exe) | [下载链接](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-3.0.1.exe) |
+| Windows 64位企业版(v3.0.1) | [下载链接](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-ent-3.0.1.msi) | [下载链接](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-ent-3.0.1.msi) |
 | macOS (v3.0.0) | [下载链接](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-x64-3.0.0.dmg) | [下载链接](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-x64-3.0.0.dmg) |
 | macOS Apple Silicon (M1) (v3.0.0) | [下载链接](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-arm64-3.0.0.dmg) | [下载链接](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-arm64-3.0.0.dmg) |
 | Windows 64位(v3.0.0) | [下载链接](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-3.0.0.exe) | [下载链接](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-3.0.0.exe) |
@@ -138,25 +107,77 @@ Windows安装程序有两个版本可用于AEM桌面应用程序版本2.3.1及�
 
 ## 新增功能、增强功能和错误修复 {#what-is-new}
 
-要了解详细信息，请参阅[v2.0](introduction.md#whats-new-v2)的新增功能。
+要了解详细信息，请参阅[v3.0.1](introduction.md#whats-new-v2)的新增功能。
 
-**应用程序v2.3.1**&#x200B;中的更新
+### 应用程序v3.0.0中的更新 {#app-version-3.0.0}
+
+此版本提供了对收藏集、上传、签入/签出、元数据管理和整体可用性的多项增强。 这些更新提高了效率，简化了资源处理，并在AEM桌面应用程序中提供了更直观的实时体验。
+
+![桌面应用用户界面](assets/dekktop-app-user-interface.png)
+
+**收藏集**
+
+* 您现在可以查看、下载和浏览收藏集。
+
+* 添加了对下载收藏集中可用文件夹的支持。
+
+* 自动同步功能现在使收藏集中下载的资源定期将AEM资源管理与本地文件系统同步。
+
+* 当您更新属于某个收藏集的资产时，系统会自动在临时缓存文件夹和桌面应用程序UI中更新该资产。
+
+**上传**
+
+* 您可以将新创建的资源从本地计算机上传到AEM（存储了中央存储库），并在桌面应用程序中查看这些资源。
+
+* 桌面应用程序现在会自动识别在本地文件系统上已下载文件夹下创建的新文件，并将它们上传到AEM。 必须保持桌面应用程序处于打开状态，才能识别本地文件系统上的新文件。
+
+**签入和签出**
+
+* 签入和签出功能允许您通过锁定文件以进行编辑（签出）并保存所做的更改而管理文件访问，同时使其对其他人可用（签入）。
+
+* 能够将资产从桌面应用程序拖到目标Creative Cloud应用程序。 桌面应用程序会自动签出资产并将其下载到本地文件系统。
+
+**元数据**
+
+* 创建新文件夹时，您可以分配元数据。
+
+* Experience Manager桌面应用程序现在可让您将资源或文件夹移动到新位置，同时保留其元数据，从而帮助组织和简化文件系统。
+
+* AEM桌面应用程序现在允许您查看文件夹属性，如文件夹缩略图、大小、路径、创建日期、标记、元数据等。
+
+**可用性改进**
+
+* 自动刷新功能可自动实时更新内容，确保您始终能够看到最新信息，而无需手动重新加载页面并获取已更新资产的列表。
+
+* 固定或取消固定文件夹功能允许您通过固定重要文件夹来轻松访问它们，或者在不再需要重要文件夹时通过取消固定来取消固定视图。
+
+* 重命名标题功能可让您轻松更新或修改资源的标题，帮助您随着内容的发展保持名称准确和有条理性。
+
+* 通过使用复制文件操作，您可以跨本地和云位置复制文件，从而保留原始文件并对类似文件进行更改。
+
+* 现在，导出选项允许将选定的文件和文件夹从桌面应用程序以平面结构下载到其特定目标位置。
+
+* 您现在可以访问“卡片”视图、“网格”视图或“树”视图中的资产，以便获得干净、有条理、美观的资产布局。
+
+* UI上更新了各种选项的各种标签，使应用程序更加直观。
+
+### 应用程序v2.3.1中的更新 {#app-version-2.3.1}
 
 * 新的Enterprise Windows Installer将应用程序安装在Program Files下。
 * 在AEM和SSO登录期间支持&#x200B;**基本身份验证**。
 * 上传操作期间允许的资源可配置数量
 
-**应用程序v2.3.0**&#x200B;中的更新
+### 应用程序v2.3.0中的更新 {#app-version-2.3.0}
 
 * 添加了对IMS登录的支持。 IMS集成允许桌面应用程序自动执行访问令牌刷新，允许用户保持登录最多14天。
 
 * 改进了对企业代理和Web过滤的支持。
 
-**应用程序v2.2.2**&#x200B;中的更新
+### 应用程序v2.2.2中的更新 {#app-version-2.2.2}
 
 * （仅限Windows）安装2.2.0和2.2.1发行版后，桌面应用程序显示一个空白屏幕。
 
-**应用程序v2.2.1**&#x200B;中的更新
+### 应用程序v2.2.1中的更新 {#app-version-2.2.1}
 
 * 单击&#x200B;**[!UICONTROL Sign In]**&#x200B;时，桌面应用会显示会话超时错误消息。
 
@@ -164,41 +185,41 @@ Windows安装程序有两个版本可用于AEM桌面应用程序版本2.3.1及�
 
 * 通过单击&#x200B;**[!UICONTROL Edited Locally]**&#x200B;对资源进行排序时，桌面应用会显示错误消息。
 
-**应用程序v2.2.0**&#x200B;中的更新
+### 应用程序v2.2.0中的更新 {#app-version-2.2.0}
 
 * 支持Apple硅(M1)。
 
 * 在登录到桌面应用程序时能够记住连接字符串。
 
-**应用程序v2.1.5.0**&#x200B;中的更新
+### 应用程序v2.1.5.0中的更新 {#app-version-2.1.5.0}
 
 * 上传包含中文字符的文件夹中的文件时，桌面应用程序停止响应(ASSETS-9237)。
 
-* 桌面应用程序在文件名中使用短划线替换圆点(ASSETS-10955)。
+* 桌面应用程序在文件名中使用破折号替换圆点(ASSETS-10955)。
 
-**应用程序v2.1.4.0**&#x200B;中的更新
-
-应用程序的新版本提供了错误修复。
-
-**应用程序v2.1.3.4**&#x200B;中的更新
+### 应用程序v2.1.4.0中的更新 {#app-version-2.1.4.0}
 
 应用程序的新版本提供了错误修复。
 
-**应用程序v2.1.3.3**&#x200B;中的更新
+### 应用程序v2.1.3.4中的更新 {#app-version-2.1.3.4}
 
 应用程序的新版本提供了错误修复。
 
-**应用程序v2.1.3.2**&#x200B;中的更新
+### 应用程序v2.1.3.3中的更新 {#app-version-2.1.3.3}
+
+应用程序的新版本提供了错误修复。
+
+### 应用程序v2.1.3.2中的更新 {#app-version-2.1.3.2}
 
 此版本的应用程序提供了错误修复。
 
-**应用程序v2.1.3.1**&#x200B;中的更新
+### 应用程序v2.1.3.1中的更新 {#app-version-2.1.3.1}
 
 此版本中修复的错误为：
 
 * 即使对于大型资产，资产上传和下载速度也得到了改进。 此版本修复了在上载超大文件时，有时通过[!DNL desktop app]上载资产失败的问题。
 
-**在应用程序v2.1.2.0**&#x200B;中更新
+### 应用程序v2.1.2.0中的更新 {#app-version-2.1.2.0}
 
 * [!UICONTROL Clear Cookies]的新选项已添加到应用程序的主菜单。 它有助于解决潜在的登录问题，例如，在将连接从服务器更改为另一个服务器时。 在连接[之前查看](/help/using/troubleshoot.md#cannot-login-cookies-issue)清除Cookie。
 
@@ -206,21 +227,21 @@ Windows安装程序有两个版本可用于AEM桌面应用程序版本2.3.1及�
 
   此行为类似于桌面应用程序版本1中的默认行为。 而在当前版本中，如果未启用该选项，则文件夹名称中的空格和字符`% ; # , + ? ^ { } "`将被文件夹路径中的破折号替换。 此外，文件夹路径中的大写字符将转换为小写。 但是，在文件名中，字符`# % { } ? &`被替换为短划线；但保留空格和大小写。 有关详细信息，请参阅[应用程序首选项](/help/using/install-upgrade.md#set-preferences)和[上传并添加新资源](/help/using/upload-assets.md#upload-and-add-new-assets-to-aem)。
 
-**在应用程序v2.1.1.0**&#x200B;中更新
+### 应用程序v2.1.1.0中的更新 {#app-version-2.1.1.0}
 
 * 高级设置允许应用程序在上传文件夹时模拟v1.10应用程序行为。 在v1.10中，在存储库中创建的节点名称会遵循用户提供的文件夹名称的空格和大小写。 在版本2.1中，默认行为保持不变：文件夹名称中的多个空格在存储库节点名称中被替换为连字符，节点名称转换为小写。 查看[应用程序首选项](/help/using/install-upgrade.md#set-preferences)。
 
-**在应用程序v2.1.0.0**&#x200B;中更新
+### 应用程序v2.1.0.0中的更新 {#app-version-2.1.0.0}
 
 * 要上传资源，用户现在可以直接从Windows资源管理器或Mac Finder将文件或文件夹拖动到应用程序界面上。 除了应用程序中提供的上传选项外，此过程还有效。 查看[上传资源](/help/using/upload-assets.md#upload-and-add-new-assets-to-aem) <!-- CQ-4309527 -->
 
-**在应用程序v2.0.3**&#x200B;中更新
+### 应用程序v2.0.3中的更新 {#app-version-2.0.3}
 
 此版本中修复的错误为：
 
 * 修复了Windows上尝试访问[!DNL Adobe Experience Manager] 6.5.5.0上的DAM存储库的应用程序用户的登录问题。
 
-**应用程序v2.0.2**&#x200B;中的更新
+### 应用程序v2.0.2中的更新 {#app-version-2.0.2}
 
 错误修复和更新包括：
 
@@ -234,7 +255,7 @@ Windows安装程序有两个版本可用于AEM桌面应用程序版本2.3.1及�
 
 * (Windows)修复了某些Windows计算机上应用程序界面不可用的罕见问题。 用户无法单击应用程序界面，因为它似乎因界面元素的单击区域向侧“偏移”而被扭曲。<!-- CQ-4280785 -->
 
-**应用程序v2.0.1**&#x200B;中的更新
+### 应用程序v2.0.1中的更新 {#app-version-2.0.1}
 
 错误修复和更新包括：
 
