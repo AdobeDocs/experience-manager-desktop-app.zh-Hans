@@ -4,7 +4,7 @@ description: ' [!DNL Adobe Experience Manager] 桌面应用程序的发行详细
 mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: 64c918a17efd082aee2d63f1379023b1da05a13b
+source-git-commit: ad234d05e7a011b148b74e92adcbf86de476f78d
 workflow-type: tm+mt
 source-wordcount: '2662'
 ht-degree: 8%
@@ -13,7 +13,7 @@ ht-degree: 8%
 
 # [!DNL Adobe Experience Manager]桌面应用发行说明 {#release-notes-v2}
 
-桌面应用程序版本3.0.1的发布日期为2025年12月18日。  此版本包括以下增强功能：
+桌面应用程序版本3.0.1的发布日期为2025年12月20日。  此版本包括以下增强功能：
 
 **更顺畅、更可靠的工作流**
 
