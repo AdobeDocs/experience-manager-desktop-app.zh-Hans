@@ -18,7 +18,7 @@ ht-degree: 0%
 
 在注销后或首次打开应用程序时，请以[!DNL Experience Manager]格式提供`https://[aem-server-url]:[port]/`服务器的URL。 然后选择[!UICONTROL Connect]选项。 提供凭据以将应用程序与服务器连接。
 
->[!VIDEO](https://video.tv.adobe.com/v/28868?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/32780?captions=chi_hans&quality=12&learn=on)
 
 使用[!DNL Adobe Experience Manager]桌面应用程序执行的主要任务包括：
 
