@@ -4,32 +4,16 @@ description: ' [!DNL Adobe Experience Manager] 桌面应用程序的发行详细
 mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: ad234d05e7a011b148b74e92adcbf86de476f78d
+source-git-commit: 826e667f11792797629e0edad5db62aea6f61774
 workflow-type: tm+mt
-source-wordcount: '2662'
-ht-degree: 8%
+source-wordcount: '5259'
+ht-degree: 4%
 
 ---
 
 # [!DNL Adobe Experience Manager]桌面应用发行说明 {#release-notes-v2}
 
-桌面应用程序版本3.0.1的发布日期为2025年12月20日。  此版本包括以下增强功能：
-
-**更顺畅、更可靠的工作流**
-
-* 通过修复AEM桌面应用程序与AEM Author之间的同步问题，确保文件夹命名的一致性。
-* 通过在活动传输操作期间允许完整的应用程序功能，启用不间断的工作流。
-* 提高了文件夹属性页面的可靠性，允许对文件夹元数据和设置进行一致的访问。
-
-**更快更快速的用户体验**
-
-* 通过将阻塞I/O替换为异步处理来增强UI响应能力，从而在高负载操作期间提供更顺畅的体验。
-* 通过在上传和下载流中引入分页功能，增强大型文件传输，从而高效处理大型数据集。
-
-**更强大的稳定性和可靠性**
-
-* 解决了由桌面应用程序交互触发的创作服务器重新启动问题，显着提高了系统稳定性。
-* 解决了在大型文件夹（数千个文件）下载或上传期间应用程序崩溃的问题。
+此桌面应用程序版本3.0.2包含错误修复，以增强应用程序的整体稳定性和性能。
 
 **支持的[!DNL Experience Manager]版本**&#x200B;包括：
 
@@ -47,6 +31,10 @@ Windows安装程序有两个版本可用于AEM桌面应用程序版本2.3.1及�
 
 | 操作系统 | [!DNL Experience Manager] as a [!DNL Cloud Service] | [!DNL Experience Manager] 6.x |
 |---|---|---|
+| macOS (v3.0.2) | [下载链接](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-x64-3.0.2.dmg) | [下载链接](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-x64-3.0.2.dmg) |
+| macOS Apple Silicon (M1) (v3.0.2) | [下载链接](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-arm64-3.0.2.dmg) | [下载链接](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-arm64-3.0.2.dmg) |
+| Windows 64位(v3.0.2) | [下载链接](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-3.0.2.exe) | [下载链接](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-3.0.2.exe) |
+| Windows 64位企业版(v3.0.2) | [下载链接](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-ent-3.0.2.msi) | [下载链接](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-ent-3.0.2.msi) |
 | macOS (v3.0.1) | [下载链接](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-x64-3.0.1.dmg) | [下载链接](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-x64-3.0.1.dmg) |
 | macOS Apple Silicon (M1) (v3.0.1) | [下载链接](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-arm64-3.0.1.dmg) | [下载链接](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-arm64-3.0.1.dmg) |
 | Windows 64位(v3.0.1) | [下载链接](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-3.0.1.exe) | [下载链接](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-3.0.1.exe) |
@@ -89,7 +77,7 @@ Windows安装程序有两个版本可用于AEM桌面应用程序版本2.3.1及�
 
 应用程序支持存储在[!DNL Experience Manager]中的资产，这些资产代表用于其基本操作的二进制文件。 在本机桌面应用程序中打开文件，取决于特定文件类型（如 PNG 或 JPG）与特定应用程序（如 Mac Preview 或 Adobe Photoshop）的操作系统关联。
 
-一些文件类型支持将链接的资产放入二进制文件中。使用桌面应用程序打开此类二进制文件时，如果资产存在于[!DNL Experience Manager]存储库中，则应用程序会预下载链接的资产。 当前支持的文件类型有：
+一些文件类型支持将链接的资产放入二进制文件中。 使用桌面应用程序打开此类二进制文件时，如果资产存在于[!DNL Experience Manager]存储库中，则应用程序会预下载链接的资产。 当前支持的文件类型有：
 
 * [!DNL Adobe InDesign]文件（INDD格式）
 * [!DNL Adobe Illustrator]文件（AI格式）
@@ -107,7 +95,27 @@ Windows安装程序有两个版本可用于AEM桌面应用程序版本2.3.1及�
 
 ## 新增功能、增强功能和错误修复 {#what-is-new}
 
-要了解详细信息，请参阅[v3.0.1](introduction.md#whats-new-v2)的新增功能。
+要了解详细信息，请参阅[v3.0.2](introduction.md#whats-new-v2)的新增功能。
+
+### 应用程序v3.0.1中的更新 {#app-version-3.0.1}
+
+桌面应用程序版本3.0.1包含以下增强功能：
+
+**更顺畅、更可靠的工作流**
+
+* 通过修复AEM桌面应用程序与AEM Author之间的同步问题，确保文件夹命名的一致性。
+* 通过在活动传输操作期间允许完整的应用程序功能，启用不间断的工作流。
+* 提高了文件夹属性页面的可靠性，允许对文件夹元数据和设置进行一致的访问。
+
+**更快更快速的用户体验**
+
+* 通过将阻塞I/O替换为异步处理来增强UI响应能力，从而在高负载操作期间提供更顺畅的体验。
+* 通过在上传和下载流中引入分页功能，增强大型文件传输，从而高效处理大型数据集。
+
+**更强大的稳定性和可靠性**
+
+* 解决了由桌面应用程序交互触发的创作服务器重新启动问题，显着提高了系统稳定性。
+* 解决了在大型文件夹（数千个文件）下载或上传期间应用程序崩溃的问题。
 
 ### 应用程序v3.0.0中的更新 {#app-version-3.0.0}
 
@@ -221,7 +229,7 @@ Windows安装程序有两个版本可用于AEM桌面应用程序版本2.3.1及�
 
 ### 应用程序v2.1.2.0中的更新 {#app-version-2.1.2.0}
 
-* [!UICONTROL Clear Cookies]的新选项已添加到应用程序的主菜单。 它有助于解决潜在的登录问题，例如，在将连接从服务器更改为另一个服务器时。 在连接[之前查看](/help/using/troubleshoot.md#cannot-login-cookies-issue)清除Cookie。
+* [!UICONTROL Clear Cookies]的新选项已添加到应用程序的主菜单。 它有助于解决潜在的登录问题，例如，在将连接从服务器更改为另一个服务器时。 在连接](/help/using/troubleshoot.md#cannot-login-cookies-issue)之前查看[清除Cookie。
 
 * 新增了一个选项，如果选定该选项，则允许应用程序上传节点名称在[!DNL Adobe Experience Manager]中与本地文件和文件夹名称匹配的文件夹和文件。 此过程可确保本地名称和上传名称之间的一致性。
 
@@ -287,7 +295,7 @@ Windows安装程序有两个版本可用于AEM桌面应用程序版本2.3.1及�
 
 * 如果应用程序不显示预期结果，请单击顶栏中的刷新图标。
 
-* 使用 [!UICONTROL Reveal File] 操作时显示的本地网络共享，仅显示本地可用的文件（和文件夹）。[!UICONTROL Reveal File] 和 [!UICONTROL Reveal Folder] 会预下载资产，以帮助在本地网络共享中显示正确的资产。
+* 使用[!UICONTROL Reveal File]操作时显示的本地网络共享，仅显示本地可用的文件（和文件夹）。[!UICONTROL Reveal File] 和[!UICONTROL Reveal Folder]会预下载资产，以帮助在本地网络共享中显示正确的资产。
 
 * 当Adobe Creative Cloud应用程序读取链接/放置在Creative Cloud应用程序本机文件中的资源文件时，会使用SMB (Mac)/WebDAV (Win)本地网络共享。
 
@@ -305,19 +313,19 @@ Windows安装程序有两个版本可用于AEM桌面应用程序版本2.3.1及�
 
 * 在少数情况下，上传资产更改时，无法正确显示进度栏。
 
-* 在应用筛选器以查找所有本地编辑的资产和删除筛选器后，应用程序不会为用户呈现搜索结果或者用户开始执行筛选时所在的文件夹视图。应用程序会显示 DAM 存储库的根文件夹。
+* 在应用筛选器以查找所有本地编辑的资产和删除筛选器后，应用程序不会为用户呈现搜索结果或者用户开始执行筛选时所在的文件夹视图。 应用程序会显示 DAM 存储库的根文件夹。
 
 * 有时，当您连接到未运行[!DNL Experience Manager]服务器的URL时，连接屏幕会变得无响应。 可退出应用程序后重新启动。
 
 **CRUD（创建、读取、更新和删除）问题：**
 
-* 在上传包含注释的资源更改时，这些注释会与资源一起存储在[!DNL Experience Manager]中，但不会显示为版本控制注释。 此问题已在[!DNL Experience Manager] 6.4.5和[!DNL Experience Manager] 6.5.1中解决。Adobe建议安装最新的Service Pack。<!-- CQ-4268990 -->
+* 在上传包含注释的资源更改时，这些注释会与资源一起存储在[!DNL Experience Manager]中，但不会显示为版本控制注释。 此问题已在[!DNL Experience Manager] 6.4.5和[!DNL Experience Manager] 6.5.1中解决。 Adobe建议安装最新的Service Pack。<!-- CQ-4268990 -->
 
 * 用户无法取消资产传输。 如果意外触发了大量传输，请退出应用程序后重新启动。<!-- CQ-4278940 -->
 
 **平台问题：**
 
-* 有时，在 Windows 上，打开资产后其状态可能会立即变为 [!UICONTROL Edited Locally]，即使您可能没有进行任何编辑也是如此。可单击 [!UICONTROL Refresh] 进行更新。
+* 有时，在 Windows 上，打开资产后其状态可能会立即变为 [!UICONTROL Edited Locally]，即使您可能没有进行任何编辑也是如此。 可单击 [!UICONTROL Refresh] 进行更新。
 
 >[!MORELIKETHIS]
 >
