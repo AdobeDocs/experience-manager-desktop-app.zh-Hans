@@ -156,7 +156,7 @@ ht-degree: 0%
 
 [!DNL Experience Manager Assets]允许您签出要编辑的资产，并在完成更改后重新签入。 签出资源后，只有您可以编辑、注释、发布、移动或删除资源。 签出资产会锁定资产并阻止其他用户执行任何这些操作。 要能够签出/签入资产，您需要具有资产的“写入”权限。
 
-有两种方式可从[!DNL Experience Manager] Web界面签出资产。 有关第一种方法的详细信息，请参阅Assets UI中的[签入和签出文件](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/check-out-and-submit-assets)。 对于第二种方法，请按照以下步骤操作，以便在安装[!DNL Experience Manager]桌面应用程序时签出并打开资产。
+有两种方式可从[!DNL Experience Manager] Web界面签出资产。 有关第一种方法的详细信息，请参阅Assets UI中的[签入和签出文件](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/assets/managing/check-out-and-submit-assets)。 对于第二种方法，请按照以下步骤操作，以便在安装[!DNL Experience Manager]桌面应用程序时签出并打开资产。
 
 1. 打开[!DNL Assets]界面并将指针悬停在文件夹或资产上，以将桌面操作显示为卡片视图中的快速操作。
 
