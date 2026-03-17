@@ -4,9 +4,9 @@ description: 使用 [!DNL Adobe Experience Manager] 桌面应用程序，从您�
 mini-toc-levels: 1
 feature: Desktop App,Asset Management
 exl-id: fa19d819-231a-4a01-bfd2-6bba6fec2f18
-source-git-commit: f519cb355affea9249d5f5d92c789e993f3ff67d
+source-git-commit: 19e4b92016670de20474b251cda9f2f5274dbc26
 workflow-type: tm+mt
-source-wordcount: '4060'
+source-wordcount: '4093'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 通过集成，组织中的各种角色可以在[!DNL Experience Manager Assets]中集中管理资源，并在Windows或macOS上的本机应用程序中访问本地桌面上的资源。
 
-在注销后或首次打开应用程序时，请以[!DNL Experience Manager]格式提供`https://[aem-server-url]:[port]/`服务器的URL。 然后选择[!UICONTROL Connect]选项。 提供凭据以将应用程序与服务器连接。
+在注销后或首次打开应用程序时，请以`https://[aem-server-url]:[port]/`格式提供[!DNL Experience Manager]服务器的URL。 然后选择[!UICONTROL Connect]选项。 提供凭据以将应用程序与服务器连接。
 
 使用[!DNL Adobe Experience Manager]桌面应用程序执行的主要任务包括：
 
@@ -119,7 +119,8 @@ ht-degree: 0%
 
 从资源菜单中单击&#x200B;**[!UICONTROL Open]**。 资产将下载到本地，并在本地应用程序中打开。 在状态栏中检查大型资产的下载进度和传输速度。
 
-<!-- ![Download progress bar for large-sized assets](assets/download_status_bar_da2.png "Download progress bar for large-sized assets")
+<!-- 
+![Download progress bar for large-sized assets](assets/download_status_bar_da2.png "Download progress bar for large-sized assets")
 -->
 
 >[!NOTE]
@@ -134,7 +135,7 @@ ht-degree: 0%
 
 ![显示资产的文件操作](assets/revealfile_action_da2.png "显示资产的文件操作")
 
-单击文件夹上的&#x200B;**[!UICONTROL Reveal File]**&#x200B;或&#x200B;**[!UICONTROL Reveal Folder]**，以使用本地计算机上预先选定的文件或文件夹打开Windows资源管理器或Mac Finder。 例如，在支持放置或链接本地文件的本地应用程序中放置[!DNL Experience Manager]文件时，选项非常有用。 若要了解如何在Adobe InDesign中放置文件，请参阅[放置图形](https://helpx.adobe.com/cn/indesign/using/placing-graphics.html)。
+单击文件夹上的&#x200B;**[!UICONTROL Reveal File]**&#x200B;或&#x200B;**[!UICONTROL Reveal Folder]**，以使用本地计算机上预先选定的文件或文件夹打开Windows资源管理器或Mac Finder。 例如，在支持放置或链接本地文件的本地应用程序中放置[!DNL Experience Manager]文件时，选项非常有用。 若要了解如何在Adobe InDesign中放置文件，请参阅[放置图形](https://helpx.adobe.com/indesign/using/placing-graphics.html)。
 
 **[!UICONTROL Reveal File]**&#x200B;操作将打开本地网络共享。 它仅显示本地可用的资源。 也就是说，它会显示使用应用程序显示、下载或打开/编辑的资产。 本地网络共享没有将任何更改上传到[!DNL Experience Manager]。 要上载更改，请在应用程序中显式使用&#x200B;**[!UICONTROL Upload Changes]**&#x200B;或&#x200B;**[!UICONTROL Upload]**&#x200B;操作。
 
@@ -157,7 +158,7 @@ ht-degree: 0%
 * 您已开始编辑资产，但未先签出该资产（例如，只需打开它）。
 * 您打算尽快开始编辑资产，不希望其他人编辑资产。
 
-完成编辑后，应用程序将显示已更改资产的&#x200B;**[!UICONTROL Edited Locally]**&#x200B;状态。 在您将更改上传到[!DNL Experience Manager]之前，保存到资源的所有更改仅供本地使用。 要逐个上传一个资产或几个资产，请在资产选项中单击&#x200B;**[!UICONTROL Upload Changes]**。 它将在[!DNL Experience Manager]中创建该资源的版本。 使用[!DNL Assets]的Web界面，您可以在[时间线视图](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/assets/using/activity-stream)中查看资产历史记录。
+完成编辑后，应用程序将显示已更改资产的&#x200B;**[!UICONTROL Edited Locally]**&#x200B;状态。 在您将更改上传到[!DNL Experience Manager]之前，保存到资源的所有更改仅供本地使用。 要逐个上传一个资产或几个资产，请在资产选项中单击&#x200B;**[!UICONTROL Upload Changes]**。 它将在[!DNL Experience Manager]中创建该资源的版本。 使用[!DNL Assets]的Web界面，您可以在[时间线视图](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/using/activity-stream)中查看资产历史记录。
 
 应用程序中的![上载更改选项](assets/upload_changes_single1_da2.png "应用程序中的“上载更改”选项")
 
@@ -177,7 +178,8 @@ ht-degree: 0%
 
 用户可以向DAM存储库添加新资产。 例如，您可能是一位机构摄影师或承包商，希望将照片拍摄中的大量照片添加到[!DNL Experience Manager]存储库。 要向[!DNL Experience Manager]添加新内容，请在应用程序的顶部栏中选择![上传到云选项](assets/do-not-localize/upload_to_cloud_da2.png)。 浏览到本地文件系统中的资源文件，然后单击&#x200B;**[!UICONTROL Select]**。 或者，要上传资源，请将文件或文件夹拖动到应用程序界面上。 在Windows上，如果将资源拖动到应用程序内的文件夹中，则会将资源上传到该文件夹中。 如果上传时间较长，应用程序会显示进度条。
 
-<!-- ![Download progress bar for large-sized assets](assets/upload_status_da2.png "Download progress bar for large-sized assets")
+<!-- 
+![Download progress bar for large-sized assets](assets/upload_status_da2.png "Download progress bar for large-sized assets")
 -->
 
 您可以从本地文件系统上传文件夹或单个文件。 上传文件夹时，将保留该文件夹的层次结构。 在批量上传资产之前，请参阅[批量上传](#bulk-upload-assets)。
@@ -194,13 +196,14 @@ ht-degree: 0%
 
 ### 管理资源名称中的特殊字符 {#special-characters-in-filename}
 
-在旧版应用程序中，在存储库中创建的节点名称会保留用户提供的文件夹名称的空格和大小写。 若要让当前应用程序模拟v1.10应用程序的节点命名规则，请在[!UICONTROL Use legacy conventions when creating nodes for assets and folders]中启用[!UICONTROL Preferences]。 查看[应用程序首选项](/help/using/install-upgrade.md#set-preferences)。 默认情况下，此旧版首选项处于禁用状态。
+在旧版应用程序中，在存储库中创建的节点名称会保留用户提供的文件夹名称的空格和大小写。 若要让当前应用程序模拟v1.10应用程序的节点命名规则，请在[!UICONTROL Preferences]中启用[!UICONTROL Use legacy conventions when creating nodes for assets and folders]。 查看[应用程序首选项](/help/using/install-upgrade.md#set-preferences)。 默认情况下，此旧版首选项处于禁用状态。
 
 >[!NOTE]
 >
 >应用程序使用以下命名惯例仅更改存储库中的节点名称。 应用程序保留资产的`Title`不变。
 
-<!-- TBD: Do NOT use this table.
+<!-- 
+TBD: Do NOT use this table.
 
 | Where do characters occur | Characters | Legacy preference | Renaming convention | Example |
 |---|---|---|---|---|
@@ -224,13 +227,15 @@ ht-degree: 0%
 
 ‡字符列表是以空格分隔的列表。
 
-<!-- TBD: Check if the following is to be included in the footnote.
+<!-- 
+TBD: Check if the following is to be included in the footnote.
 
 Do not use &#92;&#92; in the names of files and &#92;&#116; &#38; in the names of folders. 
 -->
 
 
-<!-- TBD: Securing the below presentation of the same content in a comment.
+<!-- 
+TBD: Securing the below presentation of the same content in a comment.
 
 **File names**
 
@@ -297,7 +302,7 @@ Do not use &#92;&#92; in the names of files and &#92;&#116; &#38; in the names o
 
 >[!NOTE]
 >
->请勿使用上传功能跨两个[!DNL Experience Manager]部署迁移资产。 请参阅[迁移指南](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/assets/administer/assets-migration-guide)。
+>请勿使用上传功能跨两个[!DNL Experience Manager]部署迁移资产。 请参阅[迁移指南](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/assets-migration-guide)。
 
 ### 已转移的资产列表 {#list-of-transferred-assets}
 
@@ -311,7 +316,7 @@ Do not use &#92;&#92; in the names of files and &#92;&#116; &#38; in the names o
 
 当您尝试在Assets Web界面上执行以下操作时，将会使用桌面应用程序功能：
 
-* 允许[!UICONTROL Desktop Actions]、[!UICONTROL Open]和[!UICONTROL Edit]的[!UICONTROL Reveal]
+* 允许[!UICONTROL Open]、[!UICONTROL Edit]和[!UICONTROL Reveal]的[!UICONTROL Desktop Actions]
 * [!UICONTROL Upload folder]
 * [!UICONTROL Check-out] 或 [!UICONTROL check-in]
 
@@ -338,7 +343,7 @@ Do not use &#92;&#92; in the names of files and &#92;&#116; &#38; in the names o
 
 * 不要通过单击[!UICONTROL Open]编辑任何资源。 不要通过从文件系统文件夹打开来编辑本地下载的资源。 其他用户不知道该资产正在编辑中。
 * 要编辑资源，请始终单击[!UICONTROL Edit]。 它将在本机应用程序中打开资产，并在资产上添加一个锁定图标，以便其他用户知道资产正在编辑中。
-* 如果您不小心开始编辑而未单击[!UICONTROL Toggle Check-in]，请单击[!UICONTROL Edit]。 此功能为资源添加一个锁图标。 即使您计划稍后编辑资产但希望避免其他人编辑它，请单击[!UICONTROL Toggle Check-in]以锁定该资产。
+* 如果您不小心开始编辑而未单击[!UICONTROL Edit]，请单击[!UICONTROL Toggle Check-in]。 此功能为资源添加一个锁图标。 即使您计划稍后编辑资产但希望避免其他人编辑它，请单击[!UICONTROL Toggle Check-in]以锁定该资产。
 * 在编辑资源之前，请确保其他用户未编辑该资源。 在资源上查找锁图标。
 * 完成编辑后，上传所有更改，然后签入资产。
 
@@ -356,7 +361,7 @@ Do not use &#92;&#92; in the names of files and &#92;&#116; &#38; in the names o
 
 当您使用[!DNL Experience Manager]桌面应用程序打开包含链接资源的文件时，这些资源会预先下载并显示在本机应用程序中。 要使此工作流正常工作，您的本机应用程序必须支持放置指向本地资产的链接，并且[!DNL Experience Manager]必须支持在二进制文件中将这些链接解析为服务器端引用。
 
-[!DNL Experience Manager]桌面应用程序通过一些选定的Adobe Creative Cloud桌面应用程序和文件格式(Adobe InDesign、Adobe Illustrator和Adobe Photoshop)支持此工作流。 利用工作流，可高效地使用支持的Creative Cloud文件。 如果用户A将资源添加到InDesign文件并将其签入[!DNL Experience Manager]，则用户B可以在文件中查看资源，即使它们不属于该文件。 这些资产将在用户B的计算机上本地下载。
+[!DNL Experience Manager]桌面应用程序通过一些选定的Adobe Creative Cloud桌面应用程序和文件格式（Adobe InDesign、Adobe Illustrator和Adobe Photoshop）支持此工作流。 利用工作流，可高效地使用支持的Creative Cloud文件。 如果用户A将资源添加到InDesign文件并将其签入[!DNL Experience Manager]，则用户B可以在文件中查看资源，即使它们不属于该文件。 这些资产将在用户B的计算机上本地下载。
 
 >[!NOTE]
 >
@@ -366,7 +371,7 @@ Do not use &#92;&#92; in the names of files and &#92;&#116; &#38; in the names o
 
 要使用图像资源和InDesign尝试此工作流，请执行以下步骤：
 
-1. 将已放置资源的INDD文件保存在[!DNL Experience Manager]中。 要了解如何创建此类INDD文件，请参阅[放置图形](https://helpx.adobe.com/cn/indesign/using/placing-graphics.html)。
+1. 将已放置资源的INDD文件保存在[!DNL Experience Manager]中。 要了解如何创建此类INDD文件，请参阅[放置图形](https://helpx.adobe.com/indesign/using/placing-graphics.html)。
 1. 从桌面应用程序中，**[!UICONTROL Edit]**&#x200B;包含置入了[!DNL Experience Manager]中的资产的INDD文件。
 1. 应用程序下载InDesign文件和链接的资源。 InDesign打开文档时，将解析链接，下载资源，并在InDesign文档中显示资源。
 1. 要在InDesign文件中放置新图形，请对资源使用&#x200B;**[!UICONTROL Reveal File]**&#x200B;操作。 该操作将在本地下载资产，并在Windows资源管理器或Mac Finder中打开本地网络共享位置。
@@ -385,4 +390,4 @@ Do not use &#92;&#92; in the names of files and &#92;&#116; &#38; in the names o
 
 当您使用[!UICONTROL Edit]操作编辑本地桌面应用程序中的资产时，如果资产在本地尚不可用，则会本地下载该资产。 查看[编辑资源并将更新的资源上传到 [!DNL Experience Manager]](#edit-assets-upload-updated-assets)。
 
-如果已安装应用程序并允许该应用程序，则它会在您从[!UICONTROL Desktop Actions] Web界面使用[!DNL Experience Manager]时完成操作。 应用程序先下载资产，然后完成操作。
+如果已安装应用程序并允许该应用程序，则它会在您从[!DNL Experience Manager] Web界面使用[!UICONTROL Desktop Actions]时完成操作。 应用程序先下载资产，然后完成操作。

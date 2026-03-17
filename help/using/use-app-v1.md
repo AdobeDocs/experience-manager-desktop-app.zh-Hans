@@ -3,9 +3,9 @@ title: 使用 [!DNL Experience Manager] 桌面应用程序1.10版。
 description: 了解如何使用Adobe Experience Manager桌面应用程序版本1.10并优化您在桌面上使用资源的操作。
 feature: Desktop App,Asset Management
 exl-id: 2fdc1c8d-b822-4cca-ad06-bd875a00aa6d
-source-git-commit: 5676e7ece8bb43f051dae72d17e15ab1c34caefc
+source-git-commit: 19e4b92016670de20474b251cda9f2f5274dbc26
 workflow-type: tm+mt
-source-wordcount: '2329'
+source-wordcount: '2358'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 使用该应用程序，可以轻松地在本地桌面上访问[!DNL Experience Manager]中的资产，并且可以在任何桌面应用程序中使用。 Assets可以轻松地显示在Mac Finder或Windows资源管理器中，在桌面应用程序中打开并在本地进行更改 — 更改将在存储库中创建新版本后保存回[!DNL Experience Manager]。
 
-此集成实现了跨Creative Cloud和其他应用程序的集中资产管理和访问，确保符合品牌和其他标准。
+此集成支持跨Creative Cloud和其他应用程序的集中资产管理和访问，确保符合品牌和其他标准。
 
 使用[!DNL Experience Manager]桌面应用程序v1执行的主要任务包括：
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 ### 安装应用程序 {#installapp}
 
-确保该应用程序支持您使用的Experience Manager服务器版本，以便使用Experience Manager桌面应用程序。 下载适用于您的操作系统(Mac或Windows)的安装文件（二进制文件）并安装应用程序。
+确保该应用程序支持您的Experience Manager服务器版本，以便使用Experience Manager桌面应用程序。 下载适用于您的操作系统（Mac或Windows）的安装文件（二进制文件）并安装应用程序。
 
 根据您的网络和系统首选项，可能需要详细配置。 有关更多详细信息，请参阅[安装和配置 [!DNL Experience Manager] 桌面应用程序](install-configure-app-v1.md)。
 
@@ -122,7 +122,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Adobe建议您转到Mac上的“查找器查看选项”，并取消激活选项&#x200B;**显示项目信息**、**显示项目预览**&#x200B;和已装入的[!DNL Assets]文件夹的&#x200B;**显示预览列**。 那个提高了性能。
+>Adobe建议您转到Mac上的“查找器查看选项”，并停用已装载[!DNL Assets]文件夹中的选项&#x200B;**显示项目信息**、**显示项目预览**&#x200B;和&#x200B;**显示预览列**。 那个提高了性能。
 
 ### [!DNL Experience Manager]界面中的其他选项 {#additional-options-in-aem-assets}
 
@@ -145,7 +145,7 @@ ht-degree: 0%
 ## 了解资源状态 {#understand-the-asset-statuses}
 
 | ![Windows默认应用图标](assets/do-not-localize/win_default.png) | 应用程序已连接到服务器，并且所有资产都已同步。 |
---- |--- |
+| --- |--- |
 | ![Windows禁用图标](assets/do-not-localize/win_disabled.png) | 应用程序已启动，但未与服务器连接。 某些资源可能正在挂起同步。 |
 | ![Windows文件同步图标](assets/do-not-localize/win_sync.png) | Assets正在同步。 正在上载或下载文件。 您可以从“资源状态”窗口中查看确切的状态并暂停传输。 |
 | ![Windows重新连接图标](assets/do-not-localize/win_refresh.png) | 应用程序正在尝试重新连接。 网络问题可能会导致其断开连接。 |
@@ -156,7 +156,7 @@ ht-degree: 0%
 
 [!DNL Experience Manager Assets]允许您签出要编辑的资产，并在完成更改后重新签入。 签出资源后，只有您可以编辑、注释、发布、移动或删除资源。 签出资产会锁定资产并阻止其他用户执行任何这些操作。 要能够签出/签入资产，您需要具有资产的“写入”权限。
 
-有两种方式可从[!DNL Experience Manager] Web界面签出资产。 有关第一种方法的详细信息，请参阅Assets UI中的[签入和签出文件](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/assets/managing/check-out-and-submit-assets)。 对于第二种方法，请按照以下步骤操作，以便在安装[!DNL Experience Manager]桌面应用程序时签出并打开资产。
+有两种方式可从[!DNL Experience Manager] Web界面签出资产。 有关第一种方法的详细信息，请参阅Assets UI中的[签入和签出文件](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/check-out-and-submit-assets)。 对于第二种方法，请按照以下步骤操作，以便在安装[!DNL Experience Manager]桌面应用程序时签出并打开资产。
 
 1. 打开[!DNL Assets]界面并将指针悬停在文件夹或资产上，以将桌面操作显示为卡片视图中的快速操作。
 
@@ -242,7 +242,7 @@ ht-degree: 0%
 
 1. 文件夹上传后，关闭对话框并导航到Assets UI。 上传的文件夹会显示在Web界面中。
 
-Adobe不建议复制粘贴或将更多文件或嵌套文件夹从本地文件系统拖到网络共享区域中。 由于技术限制和性能不佳，应用程序无法控制上传过程。
+Adobe不建议将大量文件或嵌套文件夹从本地文件系统复制粘贴或拖入网络共享区域。 由于技术限制和性能不佳，应用程序无法控制上传过程。
 
 或者，在Finder或Explorer中选择文件/文件夹，复制它们，导航到网络共享区域中的目标文件夹，然后从[!DNL Experience Manager]桌面应用程序上下文菜单中选择&#x200B;**粘贴Assets**。 这样，[!DNL Experience Manager]桌面应用将开始上载粘贴的资产，类似于[!DNL Experience Manager] Web界面中提供的&#x200B;**上载文件夹**&#x200B;选项。
 
