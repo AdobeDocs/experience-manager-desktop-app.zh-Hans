@@ -2,13 +2,16 @@
 title: 使用 [!DNL Experience Manager] 桌面应用程序上传资源
 description: 使用 [!DNL Adobe Experience Manager] 桌面应用程序上传资源。
 feature: Desktop App,Asset Management
-source-git-commit: c5aeee9ab636ba7bedff4225172140d59cfe627d
+exl-id: 887625c8-5ff6-4208-9bb4-f8b768292d54
+TQID: https://experienceleague.adobe.com/qGjn5yG7KXg-F85I-b6i3eezKpgiwVmajcBWlSw-hLg
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 3%
+source-wordcount: 289
+ht-degree: 4%
 
 ---
-
 
 # 使用多个资产 {#work-with-multiple-assets}
 
@@ -30,11 +33,11 @@ ht-degree: 3%
 
 ## 后续步骤 {#next-steps}
 
-* [观看视频，开始使用Adobe Experience Manager桌面应用程序](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
+* [观看视频，了解如何开始使用Adobe Experience Manager桌面应用程序](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
 
 * 通过右侧边栏中的[!UICONTROL Edit this page] ![编辑页面](assets/do-not-localize/edit-page.png)或[!UICONTROL Log an issue] ![创建GitHub问题](assets/do-not-localize/github-issue.png)提供文档反馈
 
-* 联系[客户关怀团队](https://experienceleague.adobe.com/zh-hans?support-solution=General#support)
+* 联系[客户关怀团队](https://experienceleague.adobe.com/?support-solution=General#support)
 
 >[!MORELIKETHIS]
 >

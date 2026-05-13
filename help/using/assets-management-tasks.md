@@ -2,13 +2,17 @@
 title: 使用 [!DNL Experience Manager] 桌面应用程序
 description: 使用 [!DNL Adobe Experience Manager] 桌面应用程序，从您的Win或Mac桌面直接使用 [!DNL Adobe Experience Manager] DAM资源并在其他应用程序中使用。
 feature: Desktop App,Asset Management
-source-git-commit: c5aeee9ab636ba7bedff4225172140d59cfe627d
+exl-id: c8f57bdc-1465-401f-88b1-9107fcacceb5
+TQID: https://experienceleague.adobe.com/EDU6FDXK0AFeJECzOhmYJckrQDsbSNRxY02Rgg-ScrE
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
 workflow-type: tm+mt
-source-wordcount: '1416'
-ht-degree: 0%
+source-wordcount: 1438
+ht-degree: 1%
 
 ---
-
 
 # [!DNL AEM Desktop App]中的Assets管理任务 {#assets-management-tasks}
 
@@ -123,7 +127,7 @@ AEM桌面应用允许您[查看](#view-collections-desktop-app)、[下载](#down
 
 * 不要通过单击[!UICONTROL Open]编辑任何资源。 不要通过从文件系统文件夹打开来编辑本地下载的资源。 其他用户不知道该资产正在编辑中。
 * 要编辑资源，请始终单击[!UICONTROL Edit]。 它将在本机应用程序中打开资产，并在资产上添加一个锁定图标，以便其他用户知道资产正在编辑中。
-* 如果您不小心开始编辑而未单击[!UICONTROL Toggle Check-in]，请单击[!UICONTROL Edit]。 此功能为资源添加一个锁图标。 即使您计划稍后编辑资产但希望避免其他人编辑它，请单击[!UICONTROL Toggle Check-in]以锁定该资产。
+* 如果您不小心开始编辑而未单击[!UICONTROL Edit]，请单击[!UICONTROL Toggle Check-in]。 此功能为资源添加一个锁图标。 即使您计划稍后编辑资产但希望避免其他人编辑它，请单击[!UICONTROL Toggle Check-in]以锁定该资产。
 * 在编辑资源之前，请确保其他用户未编辑该资源。 在资源上查找锁图标。
 * 完成编辑后，上传所有更改，然后签入资产。
 
@@ -141,7 +145,7 @@ AEM桌面应用允许您[查看](#view-collections-desktop-app)、[下载](#down
 
 当您使用[!DNL Experience Manager]桌面应用程序打开包含链接资源的文件时，这些资源会预先下载并显示在本机应用程序中。 要使此工作流正常工作，您的本机应用程序必须支持放置指向本地资产的链接，并且[!DNL Experience Manager]必须支持在二进制文件中将这些链接解析为服务器端引用。
 
-[!DNL Experience Manager]桌面应用程序通过一些选定的Adobe Creative Cloud桌面应用程序和文件格式(Adobe InDesign、Adobe Illustrator和Adobe Photoshop)支持此工作流。 利用工作流，可高效地使用支持的Creative Cloud文件。 如果用户A将资源添加到InDesign文件并将其签入[!DNL Experience Manager]，则用户B可以在文件中查看资源，即使它们不属于该文件。 这些资产将在用户B的计算机上本地下载。
+[!DNL Experience Manager]桌面应用程序通过一些选定的Adobe Creative Cloud桌面应用程序和文件格式（Adobe InDesign、Adobe Illustrator和Adobe Photoshop）支持此工作流。 利用工作流，可高效地使用支持的Creative Cloud文件。 如果用户A将资源添加到InDesign文件并将其签入[!DNL Experience Manager]，则用户B可以在文件中查看资源，即使它们不属于该文件。 这些资产将在用户B的计算机上本地下载。
 
 >[!NOTE]
 >
@@ -151,7 +155,7 @@ AEM桌面应用允许您[查看](#view-collections-desktop-app)、[下载](#down
 
 要使用图像资源和InDesign尝试此工作流，请执行以下步骤：
 
-1. 将已放置资源的INDD文件保存在[!DNL Experience Manager]中。 要了解如何创建此类INDD文件，请参阅[放置图形](https://helpx.adobe.com/cn/indesign/using/placing-graphics.html)。
+1. 将已放置资源的INDD文件保存在[!DNL Experience Manager]中。 要了解如何创建此类INDD文件，请参阅[放置图形](https://helpx.adobe.com/indesign/using/placing-graphics.html)。
 1. 从桌面应用程序中，**[!UICONTROL Edit]**&#x200B;包含置入了[!DNL Experience Manager]中的资产的INDD文件。
 1. 应用程序下载InDesign文件和链接的资源。 InDesign打开文档时，将解析链接，下载资源，并在InDesign文档中显示资源。
 1. 要在InDesign文件中放置新图形，请对资源使用&#x200B;**[!UICONTROL Reveal File]**&#x200B;操作。 该操作将在本地下载资产，并在Windows资源管理器或Mac Finder中打开本地网络共享位置。
@@ -160,11 +164,11 @@ AEM桌面应用允许您[查看](#view-collections-desktop-app)、[下载](#down
 
 ## 后续步骤 {#next-steps}
 
-* [观看视频，开始使用Adobe Experience Manager桌面应用程序](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
+* [观看视频，了解如何开始使用Adobe Experience Manager桌面应用程序](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
 
 * 通过右侧边栏中的[!UICONTROL Edit this page] ![编辑页面](assets/do-not-localize/edit-page.png)或[!UICONTROL Log an issue] ![创建GitHub问题](assets/do-not-localize/github-issue.png)提供文档反馈
 
-* 联系[客户关怀团队](https://experienceleague.adobe.com/zh-hans?support-solution=General#support)
+* 联系[客户关怀团队](https://experienceleague.adobe.com/?support-solution=General#support)
 
 <!--* Provide product feedback using the [!UICONTROL Feedback] option available on the AEM Desktop App user interface>-->
 
