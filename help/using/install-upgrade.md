@@ -3,9 +3,20 @@ title: 安装和配置桌面应用程序
 description: 安装并配置 [!DNL Adobe Experience Manager] 桌面应用程序以使用 [!DNL Adobe Experience Manager Assets] 服务器并在本地文件系统上下载资产。
 feature: Desktop App,Release Information
 exl-id: 422e51c1-c456-4151-bb43-4b3d29a58187
-source-git-commit: b1fad118e1ffbd0809afe9a33bcb848648cd8bdd
+TQID: https://experienceleague.adobe.com/drhaNIzGSMDl80NaIvK6T39Bnd8Pp47FlBNyRBmPprQ
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2:
+  - id: d18d21f5-ea10-400d-a1f0-a2071ad38419
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: 1530
 ht-degree: 0%
 
 ---
@@ -18,7 +29,7 @@ ht-degree: 0%
 
 * 在[!DNL Experience Manager Assets]中集中管理资源。
 
-* 访问任何本机桌面应用程序(包括第三方应用程序和Adobe Creative Cloud中的资源)中的资源。 在这样做时，用户可以轻松遵守各种标准，包括品牌推广。
+* 访问任何本机桌面应用程序（包括第三方应用程序和Adobe Creative Cloud中的资源）中的资源。 在这样做时，用户可以轻松遵守各种标准，包括品牌推广。
 
 要使用[!DNL Experience Manager]桌面应用，请执行以下操作：
 
@@ -68,7 +79,7 @@ ht-degree: 0%
 
 1. 在出现提示时重新启动计算机。 启动并配置桌面应用程序。
 
-1. 要将应用程序与[!DNL Experience Manager]存储库连接，请单击任务栏中的应用程序图标，然后启动应用程序。 以[!DNL Experience Manager]格式提供`https://[aem_server]:[port]/`服务器的地址。
+1. 要将应用程序与[!DNL Experience Manager]存储库连接，请单击任务栏中的应用程序图标，然后启动应用程序。 以`https://[aem_server]:[port]/`格式提供[!DNL Experience Manager]服务器的地址。
 
    单击&#x200B;**[!UICONTROL Connect]**&#x200B;并提供凭据。
 
@@ -114,7 +125,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Automatically download linked assets]**：下载原始文件时，将自动获取放置在受支持的本机Creative Cloud应用程序中的资源。
 
-* **[!UICONTROL Maximum number of downloads]**： ![警告图标](assets/do-not-localize/caution-icon.png)请谨慎更改。 首次下载资源时（通过“显示”、“打开”、“编辑”、“下载”或类似选项），仅当批次包含的内容少于此数字时才下载资源。 默认值为 50。如果您不确定，请勿更改。 提高该值可能会导致等待时间较长，而降低该值可能会阻止您在一次尝试中下载所有必要的资源或文件夹。
+* **[!UICONTROL Maximum number of downloads]**： ![警告图标](assets/do-not-localize/caution-icon.png)请谨慎更改。 首次下载资源时（通过“显示”、“打开”、“编辑”、“下载”或类似选项），仅当批次包含的内容少于此数字时才下载资源。 默认值为 50。 如果您不确定，请勿更改。 提高该值可能会导致等待时间较长，而降低该值可能会阻止您在一次尝试中下载所有必要的资源或文件夹。
 
 * **[!UICONTROL Use legacy conventions when creating nodes for assets and folders]**： ![警告图标](assets/do-not-localize/caution-icon.png)请谨慎更改。 此设置允许应用程序在上传文件夹时模拟v1.10应用程序行为。 在v1.10中，在存储库中创建的节点名称会遵循用户提供的文件夹名称的空格和大小写。 但是，在应用程序的v2.1中，文件夹名称中的额外空格将转换为破折号。 例如，如果未选择该选项并保留v2.1中的默认行为，则上传`New Folder`或`new   folder`会在存储库中创建相同的节点。 如果选择该选项，则会在存储库中为上述两个文件夹创建不同的节点，这些节点与v1.10应用程序的行为相匹配。
 
@@ -154,7 +165,7 @@ ht-degree: 0%
 
 1. 将所有更改上载到[!DNL Experience Manager]以避免丢失任何编辑。 查看[编辑资源并将更新的资源上传到 [!DNL Experience Manager]](upload-assets.md#edit-assets-upload-updated-assets)。 注销并[!UICONTROL Exit]应用。
 
-1. 从`Adobe Experience Manager Desktop.app`中删除`/Applications`。
+1. 从`/Applications`中删除`Adobe Experience Manager Desktop.app`。
 
 或者，要清理Mac上的内部应用程序缓存并卸载应用程序，您可以在终端中运行以下命令：
 

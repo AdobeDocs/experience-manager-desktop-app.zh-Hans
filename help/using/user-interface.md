@@ -2,13 +2,22 @@
 title: 用户界面 [!DNL Experience Manager] 桌面应用程序
 description: 用户界面 [!DNL Adobe Experience Manager] 桌面应用程序。
 feature: Desktop App,Asset Management
-source-git-commit: 2947fbd3bfeb15b37a8f1b0118e969b5d70499d0
+exl-id: bbf47ffe-9a0f-4cf2-9bda-d5e62651c00b
+TQID: https://experienceleague.adobe.com/AEbEbJbBQI6-HuI7aAf-348pf-qjK1fZfoapY7PYveo
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 7%
+source-wordcount: 499
+ht-degree: 8%
 
 ---
-
 
 # [!DNL Adobe Experience Manager]桌面应用程序的用户界面 {#user-interface-desktop-app}
 
@@ -72,7 +81,7 @@ ht-degree: 7%
     </tr>
     <tr>
         <td> J </td>
-        <td> 搜索资产 </td>
+        <td> 搜索资源 </td>
     </tr>
     <tr>
         <td> K </td>
@@ -125,7 +134,7 @@ ht-degree: 7%
 
 ## 后续步骤 {#next-steps}
 
-* [观看视频，开始使用Adobe Experience Manager桌面应用程序](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
+* [观看视频，了解如何开始使用Adobe Experience Manager桌面应用程序](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
 
 * 通过右侧边栏中的[!UICONTROL Edit this page] ![编辑页面](assets/do-not-localize/edit-page.png)或[!UICONTROL Log an issue] ![创建GitHub问题](assets/do-not-localize/github-issue.png)提供文档反馈
 
@@ -136,4 +145,3 @@ ht-degree: 7%
 >* [在桌面应用程序中管理Assets](/help/using/assets-management-tasks.md)
 >* [下载资源](/help/using/download-assets.md)
 >* [上传资源](/help/using/upload-assets.md)
-

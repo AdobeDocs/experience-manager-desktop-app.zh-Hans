@@ -2,13 +2,20 @@
 title: 使用 [!DNL Experience Manager] 桌面应用程序下载资源
 description: 使用 [!DNL Adobe Experience Manager] 桌面应用程序下载资源。
 feature: Desktop App,Asset Management
-source-git-commit: 2947fbd3bfeb15b37a8f1b0118e969b5d70499d0
+exl-id: 7004f759-ce8a-497d-9647-3a120fa3ba1d
+TQID: https://experienceleague.adobe.com/EXan0driSkmXsYYTxPe73VaDhQP5RQt1c-L2US-cSUY
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 1%
+source-wordcount: 436
+ht-degree: 2%
 
 ---
-
 
 # 在本地下载资产 {#download-assets-locally}
 
@@ -28,7 +35,7 @@ ht-degree: 1%
 
 当您使用[!UICONTROL Edit]操作编辑本地桌面应用程序中的资产时，如果资产在本地尚不可用，则会本地下载该资产。 查看[编辑资源并将更新的资源上传到 [!DNL Experience Manager]](#edit-assets-upload-updated-assets)。
 
-如果已安装应用程序并允许该应用程序，则它会在您从[!UICONTROL Desktop Actions] Web界面使用[!DNL Experience Manager]时完成操作。 应用程序先下载资产，然后完成操作。
+如果已安装应用程序并允许该应用程序，则它会在您从[!DNL Experience Manager] Web界面使用[!UICONTROL Desktop Actions]时完成操作。 应用程序先下载资产，然后完成操作。
 
 ## 下载多个资产 {#download-multiple-assets}
 
@@ -40,7 +47,7 @@ ht-degree: 1%
 
 ## 后续步骤 {#next-steps}
 
-* [观看视频，开始使用Adobe Experience Manager桌面应用程序](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
+* [观看视频，了解如何开始使用Adobe Experience Manager桌面应用程序](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
 
 * 通过右侧边栏中的[!UICONTROL Edit this page] ![编辑页面](assets/do-not-localize/edit-page.png)或[!UICONTROL Log an issue] ![创建GitHub问题](assets/do-not-localize/github-issue.png)提供文档反馈
 
@@ -51,4 +58,3 @@ ht-degree: 1%
 >* [上传资源](/help/using/upload-assets.md)
 >* [了解用户界面](/help/using/user-interface.md)
 >* [搜索](/help/using/search.md)
-

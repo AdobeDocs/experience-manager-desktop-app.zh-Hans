@@ -3,9 +3,18 @@ title: 开始使用 [!DNL Experience Manager] 桌面应用程序
 description: 了解 [!DNL Experience Manager] 桌面应用程序如何通过简化的工作流和生产力功能来增强内容创建和发布。
 feature: Desktop App,Asset Management
 exl-id: 6cf29b6a-74e6-4860-a25b-d3e91abbaa9d
-source-git-commit: 2bf5ee7454846c288cc1c976d8f69c6bfed8eabf
+TQID: https://experienceleague.adobe.com/ngwHq5OPXgoOFDGUhUjg3V4494eFgJNmb1oxSDy0fzI
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: 1231
 ht-degree: 0%
 
 ---
@@ -16,7 +25,7 @@ ht-degree: 0%
 
 通过集成，组织中的各种角色可以在[!DNL Experience Manager Assets]中集中管理资源，并在Windows或macOS上的本机应用程序中访问本地桌面上的资源。
 
-在注销后或首次打开应用程序时，请以[!DNL Experience Manager]格式提供`https://[aem-server-url]:[port]/`服务器的URL。 然后选择[!UICONTROL Connect]选项。 提供凭据以将应用程序与服务器连接。
+在注销后或首次打开应用程序时，请以`https://[aem-server-url]:[port]/`格式提供[!DNL Experience Manager]服务器的URL。 然后选择[!UICONTROL Connect]选项。 提供凭据以将应用程序与服务器连接。
 
 >[!VIDEO](https://video.tv.adobe.com/v/32780?captions=chi_hans&quality=12&learn=on){transcript=true}
 
@@ -77,7 +86,7 @@ ht-degree: 0%
 
 当您尝试在Assets Web界面上执行以下操作时，将会使用桌面应用程序功能：
 
-* 允许[!UICONTROL Desktop Actions]、[!UICONTROL Open]和[!UICONTROL Edit]的[!UICONTROL Reveal]
+* 允许[!UICONTROL Open]、[!UICONTROL Edit]和[!UICONTROL Reveal]的[!UICONTROL Desktop Actions]
 * [!UICONTROL Upload folder]
 * [!UICONTROL Check-out] 或 [!UICONTROL check-in]
 
@@ -100,7 +109,7 @@ ht-degree: 0%
 
 ## 后续步骤 {#next-steps}
 
-* [观看视频，开始使用Adobe Experience Manager桌面应用程序](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
+* [观看视频，了解如何开始使用Adobe Experience Manager桌面应用程序](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
 
 * 通过右侧边栏中的[!UICONTROL Edit this page] ![编辑页面](assets/do-not-localize/edit-page.png)或[!UICONTROL Log an issue] ![创建GitHub问题](assets/do-not-localize/github-issue.png)提供文档反馈
 

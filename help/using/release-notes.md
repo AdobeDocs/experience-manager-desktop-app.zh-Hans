@@ -4,10 +4,22 @@ description: ' [!DNL Adobe Experience Manager] 桌面应用程序的发行详细
 mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: 826e667f11792797629e0edad5db62aea6f61774
+TQID: https://experienceleague.adobe.com/hS1Q5NPU2YnyxJQbp3vapxB3-CLqbBck58NEYv3JMnI
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
 workflow-type: tm+mt
-source-wordcount: '5259'
-ht-degree: 4%
+source-wordcount: 5259
+ht-degree: 5%
 
 ---
 
@@ -281,7 +293,7 @@ Windows安装程序有两个版本可用于AEM桌面应用程序版本2.3.1及�
 
 请务必了解关于应用程序及其工作方式的以下信息。
 
-* 对于需要在与[!DNL Experience Manager]之间完全传输资源二进制文件的操作，应用程序提供了完全控制权(**打开**、**编辑**、**上传更改**&#x200B;和&#x200B;**上传Assets**)。
+* 对于需要在与[!DNL Experience Manager]之间完全传输资源二进制文件的操作，应用程序提供了完全控制权（**打开**、**编辑**、**上传更改**&#x200B;和&#x200B;**上传Assets**）。
 
    * 如果要在桌面上处理资产，则必须明确地在某个文件夹中逐个或通过多选方式打开、编辑资产或将其下载到桌面。
 
@@ -295,7 +307,7 @@ Windows安装程序有两个版本可用于AEM桌面应用程序版本2.3.1及�
 
 * 如果应用程序不显示预期结果，请单击顶栏中的刷新图标。
 
-* 使用[!UICONTROL Reveal File]操作时显示的本地网络共享，仅显示本地可用的文件（和文件夹）。[!UICONTROL Reveal File] 和[!UICONTROL Reveal Folder]会预下载资产，以帮助在本地网络共享中显示正确的资产。
+* 使用 [!UICONTROL Reveal File] 操作时显示的本地网络共享，仅显示本地可用的文件（和文件夹）。 [!UICONTROL Reveal File] 和 [!UICONTROL Reveal Folder] 会预下载资产，以帮助在本地网络共享中显示正确的资产。
 
 * 当Adobe Creative Cloud应用程序读取链接/放置在Creative Cloud应用程序本机文件中的资源文件时，会使用SMB (Mac)/WebDAV (Win)本地网络共享。
 
