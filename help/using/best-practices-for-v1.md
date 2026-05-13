@@ -3,11 +3,20 @@ title: 桌面应用程序v1.10最佳实践
 description: 关键功能和建议使用的 [!DNL Adobe Experience Manager] 桌面应用程序1.10版。
 exl-id: 5de06b33-c05c-47eb-b884-408b6f9afc94
 TQID: https://experienceleague.adobe.com/5r3NDLi2KQXMNH1s4hxfLlBzqmEisKTynSUFTVANwkU
-product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
-subfeature_v2: id: d18d21f5-ea10-400d-a1f0-a2071ad38419
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d095671a-1355-40aa-8b5f-06c33c68080bid: da3860b0-d637-47df-bef0-273751180266
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2:
+  - id: d18d21f5-ea10-400d-a1f0-a2071ad38419
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: da3860b0-d637-47df-bef0-273751180266
 source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
 workflow-type: tm+mt
 source-wordcount: 1721
@@ -127,7 +136,7 @@ AEM桌面应用程序良好的用户体验依赖于稳定的网络连接和经�
 
 要了解有关AEM Assets网络配置的最佳实践，请转到[如何批量迁移资产](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/assets-migration-guide)文档。 可帮助为用户优化AEM桌面应用程序体验的一些重要方面包括：
 
-* **使用正确配置的Dispatcher**。 为了提高安全性，请使用AEM Dispatcher，并确保已针对在Dispatcher](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher)后连接到AEM的[AEM桌面应用程序进行了配置
+* **使用正确配置的Dispatcher**。 为了提高安全性，请使用AEM Dispatcher，并确保已针对在Dispatcher[&#128279;](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher)后连接到AEM的AEM桌面应用程序进行了配置
 
 * **保存带宽**。 使用Finder浏览装入的存储库时，请考虑在Mac上的Finder中关闭图标预览。 Finder会请求每个文件生成预览，并让桌面应用程序在本地下载和缓存资产。 在节省带宽的同时，还会减少桌面用户的用户体验，因此当处理具有大量资产或带宽有限的存储库时，应该这样做。
 

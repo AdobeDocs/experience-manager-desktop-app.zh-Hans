@@ -5,9 +5,17 @@ mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
 TQID: https://experienceleague.adobe.com/hS1Q5NPU2YnyxJQbp3vapxB3-CLqbBck58NEYv3JMnI
-product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
 workflow-type: tm+mt
 source-wordcount: 5259
@@ -233,7 +241,7 @@ Windows安装程序有两个版本可用于AEM桌面应用程序版本2.3.1及�
 
 ### 应用程序v2.1.2.0中的更新 {#app-version-2.1.2.0}
 
-* [!UICONTROL Clear Cookies]的新选项已添加到应用程序的主菜单。 它有助于解决潜在的登录问题，例如，在将连接从服务器更改为另一个服务器时。 在连接](/help/using/troubleshoot.md#cannot-login-cookies-issue)之前查看[清除Cookie。
+* [!UICONTROL Clear Cookies]的新选项已添加到应用程序的主菜单。 它有助于解决潜在的登录问题，例如，在将连接从服务器更改为另一个服务器时。 在连接[&#128279;](/help/using/troubleshoot.md#cannot-login-cookies-issue)之前查看清除Cookie。
 
 * 新增了一个选项，如果选定该选项，则允许应用程序上传节点名称在[!DNL Adobe Experience Manager]中与本地文件和文件夹名称匹配的文件夹和文件。 此过程可确保本地名称和上传名称之间的一致性。
 
