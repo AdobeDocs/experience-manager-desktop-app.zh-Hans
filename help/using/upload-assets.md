@@ -4,12 +4,8 @@ description: 使用 [!DNL Adobe Experience Manager] 桌面应用程序上传资�
 feature: Desktop App,Asset Management
 exl-id: f082c712-dc04-4bed-bac8-fa78f93de1c7
 TQID: https://experienceleague.adobe.com/gqoBxhsZBCqUBHFVfQVzIHfoeNeoyIEQI-IjyQscpvQ
-product_v2:
-  - id: d09181b5-a36a-43de-ba01-36641440bc43
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
 workflow-type: tm+mt
 source-wordcount: 841
@@ -32,7 +28,7 @@ ht-degree: 2%
 * 您已开始编辑资产，但未先签出该资产（例如，只需打开它）。
 * 您打算尽快开始编辑资产，不希望其他人编辑资产。
 
-完成编辑后，应用程序将显示已更改资产的&#x200B;**[!UICONTROL Edited Locally]**&#x200B;状态。 在您将更改上传到[!DNL Experience Manager]之前，保存到资源的所有更改仅供本地使用。 要逐个上传一个资产或几个资产，请在资产选项中单击&#x200B;**[!UICONTROL Upload Changes]**。 它将在[!DNL Experience Manager]中创建该资源的版本。 使用[!DNL Assets]的Web界面，您可以在[时间线视图](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/assets/using/activity-stream)中查看资产历史记录。
+完成编辑后，应用程序将显示已更改资产的&#x200B;**[!UICONTROL Edited Locally]**&#x200B;状态。 在您将更改上传到[!DNL Experience Manager]之前，保存到资源的所有更改仅供本地使用。 要逐个上传一个资产或几个资产，请在资产选项中单击&#x200B;**[!UICONTROL Upload Changes]**。 它将在[!DNL Experience Manager]中创建该资源的版本。 使用[!DNL Assets]的Web界面，您可以在[时间线视图](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/using/activity-stream)中查看资产历史记录。
 
 应用程序中的![上载更改选项](assets/upload_changes_single1_da2.png "应用程序中的“上载更改”选项")
 
@@ -78,15 +74,15 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->请勿使用上传功能跨两个[!DNL Experience Manager]部署迁移资产。 请参阅[迁移指南](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/assets/administer/assets-migration-guide)。
+>请勿使用上传功能跨两个[!DNL Experience Manager]部署迁移资产。 请参阅[迁移指南](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/assets-migration-guide)。
 
 ## 后续步骤 {#next-steps}
 
-* [观看视频，了解如何开始使用Adobe Experience Manager桌面应用程序](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
+* [观看视频，了解如何开始使用Adobe Experience Manager桌面应用程序](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
 
 * 通过右侧边栏中的[!UICONTROL Edit this page] ![编辑页面](assets/do-not-localize/edit-page.png)或[!UICONTROL Log an issue] ![创建GitHub问题](assets/do-not-localize/github-issue.png)提供文档反馈
 
-* 联系[客户关怀团队](https://experienceleague.adobe.com/zh-hans?support-solution=General#support)
+* 联系[客户关怀团队](https://experienceleague.adobe.com/?support-solution=General#support)
 
 >[!MORELIKETHIS]
 >

@@ -4,13 +4,8 @@ description: 了解在创意用户直接从其桌面使用 [!DNL Adobe Experienc
 role: User, Admin, Leader
 exl-id: 5da36ac5-ab5b-4f8d-b446-ebe2360ec464
 TQID: https://experienceleague.adobe.com/HLUPg-NqgUOo8vWLxYeeU-BF3cJuF5DQDQNuvzufxDQ
-product_v2:
-  - id: d09181b5-a36a-43de-ba01-36641440bc43
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
 source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
 workflow-type: tm+mt
 source-wordcount: 623
@@ -24,7 +19,7 @@ Adobe 在其解决方案中提供了相互连通的工作流，助力业务用�
 
 使用该应用，[!DNL Experience Manager Assets]中的资产可在本地桌面上轻松访问，并可在任何桌面应用程序中使用。 您可以在选择的桌面应用程序中打开和编辑资产。 仅当您上载更改时，本地编辑内容才会保存为[!DNL Experience Manager]中的新版本，这样便能够在桌面上高效地编辑正在进行的工作。 该应用程序支持将资产和嵌套文件夹上载到[!DNL Experience Manager]，从而简化向存储库添加新内容的过程。
 
-通过此类集成，组织中的各种角色可以在[!DNL Experience Manager Assets]中集中管理资产。 营销人员和企业用户可以确保符合各种标准，包括品牌推广和许可。 使用专用[Adobe Asset Link](https://business.adobe.com/cn/products/experience-manager/assets/adobe-asset-link.html)工具的Creative用户可以访问Adobe Photoshop、Illustrator和InDesign中的资源，还可以访问Creative Cloud和其他本机应用程序桌面上的资源。
+通过此类集成，组织中的各种角色可以在[!DNL Experience Manager Assets]中集中管理资产。 营销人员和企业用户可以确保符合各种标准，包括品牌推广和许可。 使用专用[Adobe Asset Link](https://business.adobe.com/products/experience-manager/assets/adobe-asset-link.html)工具的Creative用户可以访问Adobe Photoshop、Illustrator和InDesign中的资源，还可以访问Creative Cloud和其他本机应用程序桌面上的资源。
 
 >[!NOTE]
 >
