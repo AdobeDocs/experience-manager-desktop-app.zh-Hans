@@ -3,19 +3,11 @@ title: 安装和配置桌面应用程序v1.10
 description: 安装并配置 [!DNL Experience Manager] 桌面应用程序1.10版以与 [!DNL Assets] 服务器一起使用，并将资产映射为桌面上的驱动器。
 exl-id: 7f3bdfb1-d345-4e48-b020-6e06531f46f2
 TQID: https://experienceleague.adobe.com/q8HwCAJiC2BlVsKHHC-Pg6NrvQEuI4bfhPV6q4s9xBE
-product_v2:
-  - id: d09181b5-a36a-43de-ba01-36641440bc43
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
-subfeature_v2:
-  - id: a9d2a4a6-0a32-4f6e-8eb1-128ec2b18a80
-  - id: d18d21f5-ea10-400d-a1f0-a2071ad38419
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2: id: a9d2a4a6-0a32-4f6e-8eb1-128ec2b18a80id: d18d21f5-ea10-400d-a1f0-a2071ad38419
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
 workflow-type: tm+mt
 source-wordcount: 928
@@ -75,9 +67,9 @@ Assets API中的复制和移动方法要求将以下其他标头传递给[!DNL E
 * X深
 * X覆盖
 
-[!DNL Experience Manager]桌面使用包含默认端口的URL连接到[!DNL Experience Manager]。 因此，Dispatcher配置中的`virtualhosts`设置应包含默认端口号。 有关`virtualhosts`配置的详细信息，请参阅[识别虚拟主机](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration#identifying-virtual-hosts-virtualhosts)。
+[!DNL Experience Manager]桌面使用包含默认端口的URL连接到[!DNL Experience Manager]。 因此，Dispatcher配置中的`virtualhosts`设置应包含默认端口号。 有关`virtualhosts`配置的详细信息，请参阅[识别虚拟主机](https://experienceleague.adobe.com/en/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration#identifying-virtual-hosts-virtualhosts)。
 
-有关配置Dispatcher以传递这些其他标头的其他信息，请参阅[指定HTTP标头](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration#specifying-the-http-headers-to-pass-through-clientheaders)。
+有关配置Dispatcher以传递这些其他标头的其他信息，请参阅[指定HTTP标头](https://experienceleague.adobe.com/en/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration#specifying-the-http-headers-to-pass-through-clientheaders)。
 
 ### 代理支持 {#proxy-support}
 
@@ -109,7 +101,7 @@ Assets API中的复制和移动方法要求将以下其他标头传递给[!DNL E
 
 ### 用于管理缓存的应用程序内选项 {#in-app-option-to-manage-cache}
 
-您可以控制可用于本地缓存的磁盘空间量。 为了更加流畅的体验，Assets服务器上的工件将缓存在本地。 您可以根据自己的要求更改默认值。 此外，您还可以清除缓存以重新获取所有资源。 要设置所需的选项，请单击应用程序的图标，然后单击&#x200B;**[!UICONTROL Advanced]** > **[!UICONTROL Manage Cache]**。 **&#x200B;**
+您可以控制可用于本地缓存的磁盘空间量。 为了更加流畅的体验，Assets服务器上的工件将缓存在本地。 您可以根据自己的要求更改默认值。 此外，您还可以清除缓存以重新获取所有资源。 要设置所需的选项，请单击应用程序的图标，然后单击&#x200B;**[!UICONTROL Advanced]** > **[!UICONTROL Manage Cache]**。 ****
 
 >[!NOTE]
 >
@@ -141,6 +133,6 @@ Assets API中的复制和移动方法要求将以下其他标头传递给[!DNL E
 
 >[!MORELIKETHIS]
 >
->* 观看[&#x200B; [!DNL Experience Manager] 桌面应用程序简介](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)（5分钟43秒）。
+>* 观看[ [!DNL Experience Manager] 桌面应用程序简介](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)（5分钟43秒）。
 >* [使用 [!DNL Experience Manager] 桌面应用程序](use-app-v1.md)。
 >* [疑难解答 [!DNL Experience Manager] 桌面应用程序](troubleshoot-app-v1.md)。
