@@ -1,22 +1,32 @@
 ---
-title: 使用 [!DNL Experience Manager] 桌面应用程序下载资源
-description: 使用 [!DNL Adobe Experience Manager] 桌面应用程序下载资源。
+title: 使用[!DNL Experience Manager]桌面应用程序下载资源
+description: 使用[!DNL Adobe Experience Manager]桌面应用程序下载资源。
 feature: Desktop App,Asset Management
 exl-id: 7004f759-ce8a-497d-9647-3a120fa3ba1d
-TQID: https://experienceleague.adobe.com/EXan0driSkmXsYYTxPe73VaDhQP5RQt1c-L2US-cSUY
+TQID: 'https://experienceleague.adobe.com/EXan0driSkmXsYYTxPe73VaDhQP5RQt1c-L2US-cSUY'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 7d2b2ec8-499c-5434-9ffd-9218cd71f683
+    internal-label: Asset Management
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+subfeature_v2:
+  - id: d18d21f5-ea10-400d-a1f0-a2071ad38419
+    internal-label: Desktop App
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
+    internal-label: Admin
+source-git-commit: 081955637ccc08fe7cad9fda87595a006d60166c
 workflow-type: tm+mt
-source-wordcount: 436
+source-wordcount: '438'
 ht-degree: 2%
-
 ---
-
 # 在本地下载资产 {#download-assets-locally}
 
 应用程序经常将资产从[!DNL Experience Manager]服务器下载到您的本地文件系统。 下载占用带宽和磁盘空间。 了解这些情况可以帮助您优化完成下载的等待时间。 您可以在本地文件系统上下载资产。 应用程序从[!DNL Experience Manager]服务器获取资产，并将相同的副本保存在本地文件系统中。
@@ -47,11 +57,11 @@ ht-degree: 2%
 
 ## 后续步骤 {#next-steps}
 
-* [观看视频，了解如何开始使用Adobe Experience Manager桌面应用程序](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
+* [观看视频，了解如何开始使用Adobe Experience Manager桌面应用程序](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
 
 * 通过右侧边栏中的[!UICONTROL Edit this page] ![编辑页面](assets/do-not-localize/edit-page.png)或[!UICONTROL Log an issue] ![创建GitHub问题](assets/do-not-localize/github-issue.png)提供文档反馈
 
-* 联系[客户关怀团队](https://experienceleague.adobe.com/zh-hans?support-solution=General#support)
+* 联系[客户关怀团队](https://experienceleague.adobe.com/?support-solution=General#support)
 
 >[!MORELIKETHIS]
 >

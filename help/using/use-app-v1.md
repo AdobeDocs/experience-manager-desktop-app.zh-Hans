@@ -1,26 +1,32 @@
 ---
-title: 使用 [!DNL Experience Manager] 桌面应用程序1.10版。
+title: 使用[!DNL Experience Manager]桌面应用程序1.10版。
 description: 了解如何使用Adobe Experience Manager桌面应用程序版本1.10并优化您在桌面上使用资源的操作。
 feature: Desktop App,Asset Management
 exl-id: 2fdc1c8d-b822-4cca-ad06-bd875a00aa6d
-TQID: https://experienceleague.adobe.com/zZCGcn6YTgFqjsadX6jzZCYDM1FvCzoHUhRpehiB-PY
+TQID: 'https://experienceleague.adobe.com/zZCGcn6YTgFqjsadX6jzZCYDM1FvCzoHUhRpehiB-PY'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+  - id: 7d2b2ec8-499c-5434-9ffd-9218cd71f683
+    internal-label: Asset Management
 subfeature_v2:
   - id: d18d21f5-ea10-400d-a1f0-a2071ad38419
+    internal-label: Desktop App
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
+    internal-label: Admin
+source-git-commit: 081955637ccc08fe7cad9fda87595a006d60166c
 workflow-type: tm+mt
-source-wordcount: 2358
+source-wordcount: '2359'
 ht-degree: 0%
-
 ---
-
 # 使用[!DNL Experience Manager]桌面应用程序v1.10 {#use-aem-desktop-app-v1x}
 
 使用该应用程序，可以轻松地在本地桌面上访问[!DNL Experience Manager]中的资产，并且可以在任何桌面应用程序中使用。 Assets可以轻松地显示在Mac Finder或Windows资源管理器中，在桌面应用程序中打开并在本地进行更改 — 更改将在存储库中创建新版本后保存回[!DNL Experience Manager]。
@@ -167,7 +173,7 @@ ht-degree: 0%
 
 [!DNL Experience Manager Assets]允许您签出要编辑的资产，并在完成更改后重新签入。 签出资源后，只有您可以编辑、注释、发布、移动或删除资源。 签出资产会锁定资产并阻止其他用户执行任何这些操作。 要能够签出/签入资产，您需要具有资产的“写入”权限。
 
-有两种方式可从[!DNL Experience Manager] Web界面签出资产。 有关第一种方法的详细信息，请参阅Assets UI中的[签入和签出文件](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/assets/managing/check-out-and-submit-assets)。 对于第二种方法，请按照以下步骤操作，以便在安装[!DNL Experience Manager]桌面应用程序时签出并打开资产。
+有两种方式可从[!DNL Experience Manager] Web界面签出资产。 有关第一种方法的详细信息，请参阅Assets UI中的[签入和签出文件](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/check-out-and-submit-assets)。 对于第二种方法，请按照以下步骤操作，以便在安装[!DNL Experience Manager]桌面应用程序时签出并打开资产。
 
 1. 打开[!DNL Assets]界面并将指针悬停在文件夹或资产上，以将桌面操作显示为卡片视图中的快速操作。
 
