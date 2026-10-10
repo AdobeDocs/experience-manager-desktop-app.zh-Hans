@@ -1,24 +1,35 @@
 ---
-title: 使用 [!DNL Experience Manager] 桌面应用程序
-description: 使用 [!DNL Adobe Experience Manager] 桌面应用程序，从您的Win或Mac桌面直接使用 [!DNL Adobe Experience Manager] DAM资源并在其他应用程序中使用。
+title: 使用[!DNL Experience Manager]桌面应用
+description: 使用[!DNL Adobe Experience Manager]桌面应用程序，从您的Win或Mac桌面直接使用[!DNL Adobe Experience Manager]个DAM资源并在其他应用程序中使用。
 feature: Desktop App,Asset Management
 exl-id: c8f57bdc-1465-401f-88b1-9107fcacceb5
-TQID: https://experienceleague.adobe.com/EDU6FDXK0AFeJECzOhmYJckrQDsbSNRxY02Rgg-ScrE
+TQID: 'https://experienceleague.adobe.com/EDU6FDXK0AFeJECzOhmYJckrQDsbSNRxY02Rgg-ScrE'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 7d2b2ec8-499c-5434-9ffd-9218cd71f683
+    internal-label: Asset Management
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+subfeature_v2:
+  - id: d18d21f5-ea10-400d-a1f0-a2071ad38419
+    internal-label: Desktop App
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
+    internal-label: Metadata
+source-git-commit: 081955637ccc08fe7cad9fda87595a006d60166c
 workflow-type: tm+mt
-source-wordcount: 1438
+source-wordcount: '1441'
 ht-degree: 1%
-
 ---
-
 # [!DNL AEM Desktop App]中的Assets管理任务 {#assets-management-tasks}
 
 资产管理涉及组织、维护和优化数字资产以简化工作流。 它包括一些任务，如复制和重命名文件、固定或取消固定文件夹以进行快速访问，以及在各种布局中查看资源。 这有助于提高效率、简化资产跟踪，并确保跨平台轻松检索和组织数字资产。
@@ -169,7 +180,7 @@ AEM桌面应用允许您[查看](#view-collections-desktop-app)、[下载](#down
 
 ## 后续步骤 {#next-steps}
 
-* [观看视频，了解如何开始使用Adobe Experience Manager桌面应用程序](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
+* [观看视频，了解如何开始使用Adobe Experience Manager桌面应用程序](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
 
 * 通过右侧边栏中的[!UICONTROL Edit this page] ![编辑页面](assets/do-not-localize/edit-page.png)或[!UICONTROL Log an issue] ![创建GitHub问题](assets/do-not-localize/github-issue.png)提供文档反馈
 

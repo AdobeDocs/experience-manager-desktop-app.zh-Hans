@@ -1,25 +1,36 @@
 ---
-title: 使用 [!DNL Experience Manager] 桌面应用程序
-description: 使用 [!DNL Adobe Experience Manager] 桌面应用程序，从您的Win或Mac桌面直接使用 [!DNL Adobe Experience Manager] DAM资源并在其他应用程序中使用。
+title: 使用[!DNL Experience Manager]桌面应用
+description: 使用[!DNL Adobe Experience Manager]桌面应用程序，从您的Win或Mac桌面直接使用[!DNL Adobe Experience Manager]个DAM资源并在其他应用程序中使用。
 mini-toc-levels: 1
 feature: Desktop App,Asset Management
 exl-id: fa19d819-231a-4a01-bfd2-6bba6fec2f18
-TQID: https://experienceleague.adobe.com/2v0mdTrS1ZgHkm0ykjYYQDQjvW0DjsVs2uLyCg8p54M
+TQID: 'https://experienceleague.adobe.com/2v0mdTrS1ZgHkm0ykjYYQDQjvW0DjsVs2uLyCg8p54M'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: 7d2b2ec8-499c-5434-9ffd-9218cd71f683
+    internal-label: Asset Management
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+subfeature_v2:
+  - id: d18d21f5-ea10-400d-a1f0-a2071ad38419
+    internal-label: Desktop App
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
+    internal-label: Metadata
+source-git-commit: 081955637ccc08fe7cad9fda87595a006d60166c
 workflow-type: tm+mt
-source-wordcount: 4093
+source-wordcount: '4096'
 ht-degree: 0%
-
 ---
-
 # 使用[!DNL Adobe Experience Manager]桌面应用  {#use-aem-desktop-app-v2}
 
 使用[!DNL Adobe Experience Manager]桌面应用程序访问本地桌面上[!DNL Adobe Experience Manager] DAM存储库中存储的数字资产。 然后，您可以在任何桌面应用程序中使用这些资产。 您可以在桌面应用程序中本地打开和编辑资产。 进行更改后，使用版本控制将它们上载回[!DNL Experience Manager]以与其他用户共享更新。 您还可以将新文件和文件夹层次结构上传到[!DNL Experience Manager]，创建文件夹，以及从[!DNL Experience Manager] DAM中删除资源或文件夹。

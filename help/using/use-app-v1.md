@@ -1,26 +1,32 @@
 ---
-title: 使用 [!DNL Experience Manager] 桌面应用程序1.10版。
+title: 使用[!DNL Experience Manager]桌面应用程序1.10版。
 description: 了解如何使用Adobe Experience Manager桌面应用程序版本1.10并优化您在桌面上使用资源的操作。
 feature: Desktop App,Asset Management
 exl-id: 2fdc1c8d-b822-4cca-ad06-bd875a00aa6d
-TQID: https://experienceleague.adobe.com/zZCGcn6YTgFqjsadX6jzZCYDM1FvCzoHUhRpehiB-PY
+TQID: 'https://experienceleague.adobe.com/zZCGcn6YTgFqjsadX6jzZCYDM1FvCzoHUhRpehiB-PY'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+  - id: 7d2b2ec8-499c-5434-9ffd-9218cd71f683
+    internal-label: Asset Management
 subfeature_v2:
   - id: d18d21f5-ea10-400d-a1f0-a2071ad38419
+    internal-label: Desktop App
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
+    internal-label: Admin
+source-git-commit: 081955637ccc08fe7cad9fda87595a006d60166c
 workflow-type: tm+mt
-source-wordcount: 2358
+source-wordcount: '2359'
 ht-degree: 0%
-
 ---
-
 # 使用[!DNL Experience Manager]桌面应用程序v1.10 {#use-aem-desktop-app-v1x}
 
 使用该应用程序，可以轻松地在本地桌面上访问[!DNL Experience Manager]中的资产，并且可以在任何桌面应用程序中使用。 Assets可以轻松地显示在Mac Finder或Windows资源管理器中，在桌面应用程序中打开并在本地进行更改 — 更改将在存储库中创建新版本后保存回[!DNL Experience Manager]。

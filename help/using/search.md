@@ -1,24 +1,33 @@
 ---
 title: 在[!DNL Experience Manager]桌面应用程序中浏览、搜索和预览资源
-description: 在 [!DNL Adobe Experience Manager] 桌面应用程序中浏览、搜索和预览资源。
+description: 在[!DNL Adobe Experience Manager]桌面应用程序中浏览、搜索和预览资源。
 feature: Desktop App
 exl-id: 03d20735-0808-4b52-bd9e-8284fcf506ed
-TQID: https://experienceleague.adobe.com/EFyDL05ItK9DlMoVKrgSzNWHcVCh1-UBi2pEPK2JmfE
+TQID: 'https://experienceleague.adobe.com/EFyDL05ItK9DlMoVKrgSzNWHcVCh1-UBi2pEPK2JmfE'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+subfeature_v2:
+  - id: d18d21f5-ea10-400d-a1f0-a2071ad38419
+    internal-label: Desktop App
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 6427cf5cb782d62b7335cfb7e3fa6b4189ac72d2
+    internal-label: Metadata
+source-git-commit: 081955637ccc08fe7cad9fda87595a006d60166c
 workflow-type: tm+mt
-source-wordcount: 928
+source-wordcount: '929'
 ht-degree: 1%
-
 ---
-
 # 浏览、搜索和预览资源 {#browse-search-preview-assets}
 
 您可以在[!DNL Experience Manager]存储库中浏览到、搜索和预览可用资源，所有这些操作都来自桌面应用程序。 在应用程序中尝试以下操作：
@@ -102,7 +111,7 @@ ht-degree: 1%
 
 ## 后续步骤 {#next-steps}
 
-* [观看视频，了解如何开始使用Adobe Experience Manager桌面应用程序](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
+* [观看视频，了解如何开始使用Adobe Experience Manager桌面应用程序](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app)
 
 * 通过右侧边栏中的[!UICONTROL Edit this page] ![编辑页面](assets/do-not-localize/edit-page.png)或[!UICONTROL Log an issue] ![创建GitHub问题](assets/do-not-localize/github-issue.png)提供文档反馈
 
